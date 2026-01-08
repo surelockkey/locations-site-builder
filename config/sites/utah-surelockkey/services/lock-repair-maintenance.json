@@ -100,7 +100,10 @@
       "type": "contactForm",
       "enabled": true,
       "data": {
-        "title": "Get Your Free Quote"
+        "title": "Get Your Free Quote",
+        "phone": "(385) 533-4270",
+        "email": "info@surelockkey-utah.com",
+        "address": "Draper, UT"
       }
     },
     {
