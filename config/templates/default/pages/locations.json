@@ -1,0 +1,11 @@
+{
+  "seo": {
+    "title": "{{COMPANY_NAME}} Locations | Find Service Near You",
+    "description": "Explore {{COMPANY_NAME}} service locations to find professional locksmith solutions near you. Local expertise ensures faster, more reliable service.",
+    "h1": "Locksmith Services for Homes, Cars & Businesses",
+    "keywords": "locksmith locations, local locksmith, locksmith near me, locksmith services"
+  },
+  "hero": {
+    "description": "Looking for locksmith services near you? See where {{COMPANY_NAME}} is currently serving with fast, professional support."
+  }
+}

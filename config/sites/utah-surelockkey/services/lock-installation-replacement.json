@@ -1,0 +1,159 @@
+{
+  "id": "lock-installation-replacement",
+  "slug": "lock-installation-replacement",
+  "title": "Lock Installation & Replacement",
+  "subtitle": "Lock Installation & Replacement for Better Security",
+  "description": "Lock installation and replacement services for houses, offices, apartments, and retail locations. Available throughout Utah.",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Installation+%26+Replacement/Lock+Installation+%26+Replacement.webp",
+  "seo": {
+    "title": "Lock Installation & Replacement | Upgrade Your Security",
+    "description": "Lock installation and replacement services for houses, offices, apartments, and retail locations. Available throughout Utah.",
+    "h1": "Lock Installation & Replacement for Better Security",
+    "keywords": [
+      "lock installation",
+      "lock replacement",
+      "residential locksmith",
+      "commercial locksmith"
+    ]
+  },
+  "hero": {
+    "title": "Lock Installation & Replacement for Better Security",
+    "subtitle": "Professional Installation Services",
+    "description": "Whether you're upgrading old locks or need brand-new ones installed, our locksmiths in Utah handle it quickly and securely. Fast response, honest pricing, and professional results.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Installation+%26+Replacement/Lock+Installation+%26+Replacement.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "enabled": true,
+      "data": {
+        "title": "Residential & Commercial Lock Installation Services",
+        "description": "We tailor every lock installation to your needs—whether you're moving in, upgrading security, or replacing damaged hardware. From deadbolts to smart locks, we offer full-service lock installation for homes, offices, apartments, and more.",
+        "cards": [
+          {
+            "title": "Residential Services",
+            "items": [
+              "Front door lock installation",
+              "Deadbolt lock replacement",
+              "Lock upgrades for side and back doors",
+              "Smart lock installation",
+              "Keypad lock setup for home entry",
+              "Garage entry door lock installation",
+              "Patio door and sliding door locks",
+              "Mailbox and gate lock installation"
+            ]
+          },
+          {
+            "title": "Commercial Services",
+            "items": [
+              "Office entry door lock installation",
+              "Keyless entry system setup",
+              "Master key system installation",
+              "Panic bar and exit device setup",
+              "Interior door and storage room locks",
+              "High-security commercial locks",
+              "Lock upgrades for storefronts",
+              "Lock replacement for commercial units"
+            ]
+          }
+        ],
+        "cta": {
+          "type": "callUs",
+          "title": "Can’t find the service you need? ",
+          "description": "Call us now — our support is ready to answer 24/7.",
+          "buttonText": "Сall Us Now"
+        }
+      }
+    },
+    {
+      "type": "gallery",
+      "enabled": true,
+      "data": {
+        "title": "See Our Recent Locksmith Work",
+        "images": [
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Installation+%26+Replacement/Lock+Installation+%26+Replacement-3.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Installation+%26+Replacement/Lock+Installation+%26+Replacement-2.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Installation+%26+Replacement/Lock+Installation+%26+Replacement-1.webp"
+        ]
+      }
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC",
+        "description": "When it comes to lock installation, quality matters. We use the right tools, solid hardware, and experienced technicians to make sure every lock is installed securely and works exactly as it should.",
+        "features": [
+          {
+            "title": "Hardware That Matches the Job",
+            "description": "We install lock systems suited to the door, traffic level, and security needs—nothing over- or underbuilt.",
+            "icon": "briefcase"
+          },
+          {
+            "title": "Installed by Licensed Pros",
+            "description": "All lock installations are done by trained, licensed locksmiths who know how to get the job done right the first time.",
+            "icon": "award"
+          },
+          {
+            "title": "Solutions for Homes & Businesses",
+            "description": "Whether it's your front door or a commercial entry point, we offer lock options that match your space and level of security.",
+            "icon": "map-pin"
+          },
+          {
+            "title": "Transparent Pricing on Every Job",
+            "description": "You'll get clear, upfront quotes with no hidden fees and no upselling—just straightforward service you can trust.",
+            "icon": "dollar-sign"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Get Your Free Quote"
+      }
+    },
+    {
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "What's the difference between rekeying and replacing a lock?",
+            "answer": "Rekeying changes the internal pins of a lock so a new key works with it, while replacing swaps the entire lock mechanism. Rekeying is often quicker and more budget-friendly."
+          },
+          {
+            "question": "What is a master key system?",
+            "answer": "A master key system lets one key open multiple locks, while individual keys still open only their assigned doors. It's a popular option for offices, apartment buildings, and properties with different access levels."
+          },
+          {
+            "question": "Do I need to replace my locks after moving into a new place?",
+            "answer": "In most cases, rekeying your existing locks is enough to restore full control over who has access. It's more cost-effective than replacement and still ensures that old keys no longer work."
+          },
+          {
+            "question": "Can I upgrade to smart locks without changing my doors?",
+            "answer": "Yes, many smart locks are designed to fit standard door preps. We'll help you choose one that works with your current setup."
+          },
+          {
+            "question": "How do I know if my lock needs to be replaced?",
+            "answer": "If your lock sticks, wobbles, or shows signs of rust or wear, it's probably time for a replacement. We can inspect it and recommend the best fix."
+          },
+          {
+            "question": "What types of locks do you install?",
+            "answer": "We install deadbolts, keypad locks, smart locks, high-security systems, and more—depending on your door type and security needs."
+          }
+        ]
+      }
+    }
+  ]
+}

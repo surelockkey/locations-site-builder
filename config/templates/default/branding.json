@@ -1,0 +1,8 @@
+{
+  "companyName": "{{COMPANY_NAME}}",
+  "shortName": "{{SHORT_NAME}}",
+  "tagline": "{{TAGLINE}}",
+  "logo": "/logo.svg",
+  "logoAlt": "{{COMPANY_NAME}} Logo",
+  "favicon": "/favicon.ico"
+}

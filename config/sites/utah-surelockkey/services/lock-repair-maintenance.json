@@ -1,0 +1,140 @@
+{
+  "id": "lock-repair-maintenance",
+  "slug": "lock-repair-maintenance",
+  "title": "Lock Repair & Maintenance",
+  "subtitle": "Professional Lock Repair & Maintenance Services",
+  "description": "Get expert lock repair and maintenance in Utah. We fix sticky, damaged, or misaligned locks for homes and businesses—fast, clean, and reliable.",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Repair+%26+Maintenance/Lock+Repair+%26+Maintenance-2.webp",
+  "seo": {
+    "title": "Lock Repair & Maintenance in Utah | Fix Sticky Locks",
+    "description": "Get expert lock repair and maintenance in Utah. We fix sticky, damaged, or misaligned locks for homes and businesses—fast, clean, and reliable.",
+    "h1": "Professional Lock Repair & Maintenance Services",
+    "keywords": [
+      "lock repair",
+      "lock maintenance",
+      "deadbolt repair",
+      "smart lock repair"
+    ]
+  },
+  "hero": {
+    "title": "Professional Lock Repair & Maintenance Services",
+    "subtitle": "Fix Sticky & Damaged Locks",
+    "description": "We repair all types of locks—from deadbolts to keypads and smart systems. Whether it's a worn latch, a misaligned strike plate, or a sticky lock, we'll get it fixed fast and professionally.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Repair+%26+Maintenance/Lock+Repair+%26+Maintenance-2.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "enabled": true,
+      "data": {
+        "title": "Lock Repair & Maintenance for Smooth, Secure Use",
+        "description": "Locks wear down over time, especially on frequently used doors. Issues like stiffness, misalignment, or internal wear can affect how a lock performs and how secure it feels.",
+        "items": [
+          "Deadbolt repairs and alignment fixes",
+          "Smart lock diagnostics and battery service",
+          "Keypad lock repairs and code resets",
+          "Cylinder repairs and broken key extraction",
+          "Strike plate, latch, and bolt adjustments",
+          "Door and hinge alignment for clean locking",
+          "Sliding and patio door lock service",
+          "Lock maintenance: lubrication and internal checks"
+        ],
+        "cta": {
+          "type": "callUs",
+          "title": "Can't find the service you need?",
+          "description": "Call us anytime — our support team is available 24/7."
+        }
+      }
+    },
+    {
+      "type": "gallery",
+      "enabled": true,
+      "data": {
+        "title": "See Our Recent Locksmith Work",
+        "images": [
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Repair+%26+Maintenance/Lock+Repair+%26+Maintenance-3.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Repair+%26+Maintenance/Lock+Repair+%26+Maintenance-1.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Repair+%26+Maintenance/Lock+Repair+%26+Maintenance.webp"
+        ]
+      }
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC",
+        "description": "Lock problems aren't always obvious, but even small issues can affect your safety and day-to-day use. Our locksmiths take the time to check the full setup—lock, door, and frame—to get things working properly again.",
+        "features": [
+          {
+            "title": "Repairs That Make Sense",
+            "description": "We fix the actual problem—whether it's a misaligned bolt or a jammed cylinder—without replacing hardware that still works.",
+            "icon": "briefcase"
+          },
+          {
+            "title": "Handled by Skilled Locksmiths",
+            "description": "Every repair is done by experienced locksmiths who know how to identify the issue and fix it cleanly, without damage.",
+            "icon": "award"
+          },
+          {
+            "title": "Solutions for Any Lock Type",
+            "description": "From deadbolts to smart locks and keypads, we service all types of residential and commercial locks.",
+            "icon": "key"
+          },
+          {
+            "title": "No Guesswork, Just Fair Pricing",
+            "description": "We explain the issue, the fix, and the cost—no pressure, no vague estimates, just clear info before the work begins.",
+            "icon": "dollar-sign"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Get Your Free Quote"
+      }
+    },
+    {
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "How do I know if my lock can be repaired instead of replaced?",
+            "answer": "If the lock is structurally sound and not severely worn or broken, a repair is often possible. We assess the damage and explain your best options."
+          },
+          {
+            "question": "Can you fix a loose door handle along with the lock?",
+            "answer": "Yes. We check the full hardware setup, including handles, to make sure everything is secure and functions as it should."
+          },
+          {
+            "question": "Do you service locks that weren't installed by your team?",
+            "answer": "Absolutely. We repair and maintain locks of all brands and types, whether we installed them or not."
+          },
+          {
+            "question": "My key turns, but the door won't open—what's going on?",
+            "answer": "This often signals a worn or misaligned latch mechanism. We can realign and repair the parts to restore proper function."
+          },
+          {
+            "question": "How often should locks be maintained?",
+            "answer": "For smooth performance and long life, we recommend basic lock maintenance once a year—especially on high-traffic doors."
+          },
+          {
+            "question": "Do you repair smart locks that won't connect or respond?",
+            "answer": "Yes. We troubleshoot connectivity, power, and software issues to restore smart lock performance without needing a full replacement."
+          }
+        ]
+      }
+    }
+  ]
+}

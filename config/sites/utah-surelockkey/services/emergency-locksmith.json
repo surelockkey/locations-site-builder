@@ -1,0 +1,165 @@
+{
+  "id": "emergency-locksmith",
+  "slug": "emergency-locksmith",
+  "title": "Emergency Locksmith Services",
+  "subtitle": "Fast Response Emergency Locksmith Services",
+  "description": "Emergency locksmith services provide quick solutions for lockouts and urgent lock issues. Learn what to expect and when to call a professional locksmith.",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Emergency+Locksmith+Services/Emergency+Locksmith+Services-2.webp",
+  "seo": {
+    "title": "Emergency Locksmith Services | Fast Help When Locked Out",
+    "description": "Emergency locksmith services provide quick solutions for lockouts and urgent lock issues. Learn what to expect and when to call a professional locksmith.",
+    "h1": "Fast Response Emergency Locksmith Services",
+    "keywords": [
+      "emergency locksmith",
+      "emergency locksmith services",
+      "lockout services",
+      "24 hour locksmith"
+    ]
+  },
+  "hero": {
+    "title": "Fast Response Emergency Locksmith Services",
+    "subtitle": "24/7 Mobile Service",
+    "description": "When a lockout or urgent lock problem can't wait, we're ready. Sure Lock & Key Utah LLC provides emergency locksmith services across Utah with mobile help for homes, businesses, and vehicles.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Emergency+Locksmith+Services/Emergency+Locksmith+Services-2.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "enabled": true,
+      "data": {
+        "title": "Emergency Locksmith Services in Utah",
+        "description": "Some lock problems don't give you time to plan—a door that won't open, a key that snaps, or a business that can't secure the front entrance. Our emergency locksmith services across Utah provide mobile help focused on quick response and clear answers.",
+        "items": [
+          "Home, apartment, and condo lockout services",
+          "Car lockouts and urgent car key issues",
+          "Business lockouts for offices, shops, and facilities",
+          "Emergency lock repair or replacement after damage or wear",
+          "Broken key extraction from locks and ignitions",
+          "Fast help from a mobile locksmith"
+        ],
+        "cta": {
+          "type": "callUs",
+          "title": "Need help but don't see it listed? Share the details, and we'll confirm the next step.",
+          "description": "Share the details, and we'll confirm the next step.",
+          "buttonText": "Call us now"
+        }
+      }
+    },
+    {
+      "type": "contentBlock",
+      "enabled": true,
+      "data": {
+        "blocks": [
+          {
+            "title": "Residential Emergency",
+            "content": "A home lock problem can turn into a bigger headache fast, especially in the evening or on a cold night in Utah. If you're locked out, your key won't turn, or a deadbolt stops working, we provide mobile emergency help to get you back inside.",
+            "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Services+Page/Residential+Emergency.webp",
+            "icon": "home"
+          },
+          {
+            "title": "Automotive Emergency",
+            "content": "If your car won't unlock or start, you need help where you're parked, instead of a tow and a long wait. Our mobile emergency auto locksmith service in Utah includes careful vehicle entry, broken key removal, and key or fob support when supported.",
+            "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Services+Page/Automotive+Emergency.webp",
+            "icon": "car"
+          },
+          {
+            "title": "Commercial Emergency",
+            "content": "Businesses can't 'wait it out' when a storefront won't lock, a back door won't latch, or keys go missing after a staff change. We support Utah offices, retail locations, and facilities with emergency lockouts, urgent rekeying, and hardware repairs.",
+            "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Services+Page/Commercial+Emergency.webp",
+            "icon": "building"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "enabled": true,
+      "data": {
+        "title": "See Our Recent Locksmith Work",
+        "images": [
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Emergency+Locksmith+Services/Emergency+Locksmith+Services-1.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Emergency+Locksmith+Services/Emergency+Locksmith+Services-3.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Emergency+Locksmith+Services/Emergency+Locksmith+Services.webp"
+        ]
+      }
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC",
+        "description": "Emergency calls feel different because you don't have time to guess. You want an emergency locksmith who shows up prepared, explains what's happening, and helps you secure the door or vehicle again.",
+        "features": [
+          {
+            "title": "Fast Triage for Lockouts",
+            "description": "We start by getting the key details quickly, then confirm the best next step for your situation. That keeps lockout services straightforward and helps avoid wasted time.",
+            "icon": "map-pin"
+          },
+          {
+            "title": "Prepared for Common Emergencies",
+            "description": "Our mobile setup is equipped for issues like jammed deadbolts, keys that won't turn, and doors that won't latch. We focus on practical fixes that restore access.",
+            "icon": "briefcase"
+          },
+          {
+            "title": "Help That Restores Secure Access",
+            "description": "An emergency isn't just about getting back inside. Our emergency locksmith work also focuses on getting the lock working properly again.",
+            "icon": "award"
+          },
+          {
+            "title": "Clear Options, No Runaround",
+            "description": "With emergency locksmith services, communication matters. We explain what we see, outline the options, and keep things simple from the first call to the finish.",
+            "icon": "dollar-sign"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Get Your Free Quote"
+      }
+    },
+    {
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "What counts as an emergency locksmith situation?",
+            "answer": "Lockouts, broken keys, locks that won't turn, and doors that won't latch are common emergencies. If you can't secure the door or can't get inside, it's a good idea to call."
+          },
+          {
+            "question": "Do you offer emergency lockout services for homes and businesses?",
+            "answer": "Yes. We help with residential and commercial lockouts, including offices, suites, and storage areas."
+          },
+          {
+            "question": "Can you rekey my locks after a lockout or lost keys?",
+            "answer": "In many cases, yes. Rekeying is a popular option when you want old keys to stop working without changing the entire lock."
+          },
+          {
+            "question": "Can you help if my key snapped in the lock?",
+            "answer": "Yes. We provide broken key extraction and can let you know whether the lock is still in good shape afterward."
+          },
+          {
+            "question": "Do you work on smart locks and keypad locks?",
+            "answer": "Often, yes. Tell us the brand name and what it's doing (or send a photo), and we'll confirm what's supported."
+          },
+          {
+            "question": "Should I call or use the form?",
+            "answer": "Call or text for time-sensitive lockouts and urgent issues. The form works best for non-urgent questions and scheduling requests."
+          }
+        ]
+      }
+    }
+  ]
+}

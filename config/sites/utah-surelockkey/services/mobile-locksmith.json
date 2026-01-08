@@ -1,0 +1,164 @@
+{
+  "id": "mobile-locksmith",
+  "slug": "mobile-locksmith",
+  "title": "Mobile Locksmith Services",
+  "subtitle": "Mobile Locksmith Services When You Need Immediate Help",
+  "description": "Mobile locksmith services bring professional lock and key solutions directly to you. Discover the benefits of on-site locksmith assistance.",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Mobile+Locksmith+Services/Mobile+Locksmith+Services.webp",
+
+  "seo": {
+    "title": "Mobile Locksmith Services | On-Site Lock & Key Help",
+    "description": "Mobile locksmith services bring professional lock and key solutions directly to you. Discover the benefits of on-site locksmith assistance.",
+    "h1": "Mobile Locksmith Services When You Need Immediate Help",
+    "keywords": [
+      "mobile locksmith",
+      "mobile car key replacement near me",
+      "mobile car locksmith near me",
+      "mobile locksmith for cars",
+      "mobile key maker"
+    ]
+  },
+  "hero": {
+    "title": "Mobile Locksmith Services When You Need Immediate Help",
+    "subtitle": "On-Site Help Across Utah",
+    "description": "When life's moving fast, the last thing you need is a lock problem slowing you down. Sure Lock & Key Utah LLC makes mobile locksmith services simple, with on-site help at your door, your office, or your vehicle.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Mobile+Locksmith+Services/Mobile+Locksmith+Services.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "enabled": true,
+      "data": {
+        "title": "Mobile Locksmith Services We Provide",
+        "description": "Some lock problems are quick. Others throw your whole day off. Whether you're locked out, dealing with a stubborn door, or dealing with a vehicle key issue in a busy parking lot, our mobile locksmith services bring on-site help to homes, businesses, and vehicles across Utah.",
+        "items": [
+          "Home lockout service (houses, apartments, condos)",
+          "Lock rekeying after moving or key changes",
+          "Lock repair, replacement, and new lock installation",
+          "Broken key extraction from doors or ignitions (when applicable)",
+          "Mobile car key cutting and duplication",
+          "Transponder key and key fob programming/support (when supported)"
+        ],
+        "cta": {
+          "type": "callUs",
+          "title": "Unsure what to request?",
+          "description": "Tell us the situation and we'll help you choose the right service.",
+          "buttonText": "Сontact Us"
+        }
+      }
+    },
+    {
+      "type": "contentBlock",
+      "enabled": true,
+      "data": {
+        "blocks": [
+          {
+            "title": "Residential Emergency",
+            "content": "Home lock problems can slow everything down, especially when you're trying to get kids inside, leave for work, or secure the door at night. Our mobile locksmith team handles lockouts, rekeys, and lock hardware issues on-site.",
+            "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Services+Page/Residential+Emergency.webp"
+          },
+          {
+            "title": "Automotive Emergency",
+            "content": "Searching 'mobile car locksmith near me' usually means you need help where the car is, not a shop visit. Our mobile auto locksmith service supports Utah drivers with vehicle lockouts and many key-related situations.",
+            "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Services+Page/Automotive+Emergency.webp"
+          },
+          {
+            "title": "Commercial Emergency",
+            "content": "Business lock problems often show up at the busiest moments. We provide mobile locksmith support across Utah for offices, retail spaces, and facilities, including rekeys, lock repair or replacement, and hardware adjustments.",
+            "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Services+Page/Commercial+Emergency.webp"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "enabled": true,
+      "data": {
+        "title": "See Our Recent Locksmith Work",
+        "images": [
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Mobile+Locksmith+Services/Mobile+Locksmith+Services-1.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Mobile+Locksmith+Services/Mobile+Locksmith+Services-2.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Mobile+Locksmith+Services/Mobile+Locksmith+Services-3.webp"
+        ]
+      }
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC",
+        "description": "Mobile help should feel easy, not complicated. Sure Lock & Key Utah LLC delivers mobile locksmith services across Utah with a simple process, a well-stocked service van, and clear communication so you know what’s happening from the start.",
+        "features": [
+          {
+            "title": "Mobile Service That Fits Your Day",
+            "description": "We meet you where the problem is—at your home, your business, or your vehicle—so you're not stuck arranging a ride, a tow, or extra trips.",
+            "icon": "map-pin"
+          },
+          {
+            "title": "Key Work Done On-Site",
+            "description": "We can often handle mobile key cutting and, when supported, mobile key programming and mobile key fob replacement right where you are.",
+            "icon": "key"
+          },
+          {
+            "title": "Practical Screening Before We Roll",
+            "description": "A few quick details help us confirm what's realistic and what tools may be needed. That keeps scheduling simple and helps avoid surprises.",
+            "icon": "clipboard-check"
+          },
+          {
+            "title": "Set Up for Utah Conditions",
+            "description": "Service in Utah often means driveways, job sites, and parking lots in changing weather. Our mobile locksmith setup is built for field work.",
+            "icon": "cloud-sun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Get Your Free Quote"
+      }
+    },
+    {
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "What are mobile locksmith services?",
+            "answer": "Mobile locksmith services send a technician to your location for lockouts, rekeying, lock repairs, and many key-related services instead of requiring a shop visit."
+          },
+          {
+            "question": "Do you offer mobile locksmith service for cars?",
+            "answer": "Yes. We provide mobile car locksmith service in many areas of Utah, including vehicle lockouts and supported key services."
+          },
+          {
+            "question": "Can you do mobile car key replacement?",
+            "answer": "In many cases, yes. Support depends on the vehicle's key system. Contact us with the situation, and we'll confirm what options are available."
+          },
+          {
+            "question": "Do you provide mobile key programming?",
+            "answer": "Yes, for compatible systems. We'll confirm what's supported based on the situation."
+          },
+          {
+            "question": "Do you offer mobile key cutting?",
+            "answer": "Yes. Mobile key cutting is available for many key types, and we can confirm options when you reach out."
+          },
+          {
+            "question": "Should I call or use the form?",
+            "answer": "Call or text for time-sensitive lockouts and urgent issues. The form works best for non-urgent questions and scheduling requests."
+          }
+        ]
+      }
+    }
+  ]
+}

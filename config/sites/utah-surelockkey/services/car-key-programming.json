@@ -1,0 +1,348 @@
+{
+  "id": "car-key-programming",
+  "slug": "car-key-programming",
+  "title": "Car Key Programming",
+  "subtitle": "Expert Car Key Programming Services",
+  "description": "Get car key programming in Utah today. We handle smart keys, push-to-start fobs, and remotes quickly, right where you are.",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Programming/Car+Key+Programming-1.webp",
+
+  "seo": {
+    "title": "Car Key Programming in Utah | Fast Mobile Service",
+    "description": "Get car key programming in Utah today. We handle smart keys, push-to-start fobs, and remotes quickly, right where you are.",
+    "h1": "Expert Car Key Programming Services",
+    "keywords": [
+      "car key programming",
+      "transponder key programming",
+      "car key fob programming",
+      "smart key programming"
+    ]
+  },
+  "hero": {
+    "title": "Expert Car Key Programming Services",
+    "subtitle": "Fast Mobile Service",
+    "description": "We program car keys, fobs, and smart remotes for all major makes and models. Whether your key stopped working or you just need a spare, we bring the solution to you—fast, reliable, and done on-site.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Programming/Car+Key+Programming-1.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "data": {
+        "title": "Car Key Programming Solutions in Utah",
+        "description": "We handle all types of key programming—from standard chip keys to advanced push-to-start systems. Whether you need a spare or a full reset, we'll get your key synced and your vehicle ready to go. Our mobile team comes to you with the tools to fix it on the spot.",
+        "items": [
+          "Transponder key programming for chip-based systems",
+          "Car key fob programming and syncing for remote access",
+          "Smart key setup and push-to-start pairing",
+          "Reprogramming after battery or ECU resets",
+          "Removing lost or old keys from your car's memory",
+          "Spare key cutting and programming on-site"
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "enabled": true,
+      "data": {
+        "title": "See Our Recent Locksmith Work",
+        "images": [
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Programming/Car+Key+Programming.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Programming/Car+Key+Programming-3.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Programming/Car+Key+Programming-2.webp"
+        ]
+      }
+    },
+    {
+      "type": "brandsWeServe",
+      "enabled": true,
+      "data": {
+        "title": "Car Brands We Serve",
+        "description": "We service many popular car brands and model years, including everyday drivers and newer vehicles with fobs and smart keys.",
+        "brands": [
+          {
+            "name": "Acura",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/acura.webp"
+          },
+          {
+            "name": "Audi",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/audi.webp"
+          },
+          {
+            "name": "Bentley",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/bentley.webp"
+          },
+          {
+            "name": "BMW",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/bmw.webp"
+          },
+          {
+            "name": "Buick",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/buick.webp"
+          },
+          {
+            "name": "Cadillac",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/cadillac.webp"
+          },
+          {
+            "name": "Chevrolet",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/chevrolet.webp"
+          },
+          {
+            "name": "Chrysler",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/chrysler.webp"
+          },
+          {
+            "name": "Dodge",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/dodge.webp"
+          },
+          {
+            "name": "Fiat",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/fiat.webp"
+          },
+          {
+            "name": "Ford",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/ford.webp"
+          },
+          {
+            "name": "Freightliner",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/freightliner.webp"
+          },
+          {
+            "name": "Genesis",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/genesis.webp"
+          },
+          {
+            "name": "Geo",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/geo.webp"
+          },
+          {
+            "name": "GMC",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/gmc.webp"
+          },
+          {
+            "name": "Hino",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hino.webp"
+          },
+          {
+            "name": "Honda",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/honda.webp"
+          },
+          {
+            "name": "Hummer",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hummer.webp"
+          },
+          {
+            "name": "Hyundai",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hyundai.webp"
+          },
+          {
+            "name": "Infiniti",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/infinity.webp"
+          },
+          {
+            "name": "Isuzu",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/isuzu.webp"
+          },
+          {
+            "name": "Jaguar",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/jaguar.webp"
+          },
+          {
+            "name": "Jeep",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/jeep.webp"
+          },
+          {
+            "name": "Kia",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/kia.webp"
+          },
+          {
+            "name": "Land Rover",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/land-rover.webp"
+          },
+          {
+            "name": "Lexus",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/lexus.webp"
+          },
+          {
+            "name": "Lincoln",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/lincoln.webp"
+          },
+          {
+            "name": "Maserati",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/maserati.webp"
+          },
+          {
+            "name": "Mazda",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mazda.webp"
+          },
+          {
+            "name": "Mercedes-Benz",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mercedes-benz.webp"
+          },
+          {
+            "name": "Mercury",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mercury.webp"
+          },
+          {
+            "name": "Mini",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mini.webp"
+          },
+          {
+            "name": "Mitsubishi",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mitsubishi.webp"
+          },
+          {
+            "name": "Nissan",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/nissan.webp"
+          },
+          {
+            "name": "Oldsmobile",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/oldsmobile.webp"
+          },
+          {
+            "name": "Peterbilt",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/peterbilt.webp"
+          },
+          {
+            "name": "Plymouth",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/plymouth.webp"
+          },
+          {
+            "name": "Pontiac",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/pontiac.webp"
+          },
+          {
+            "name": "Porsche",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/porsche.webp"
+          },
+          {
+            "name": "Ram",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/ram.webp"
+          },
+          {
+            "name": "Rolls-Royce",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/rolls-royce.webp"
+          },
+          {
+            "name": "Saab",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/saab.webp"
+          },
+          {
+            "name": "Saturn",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/saturn.webp"
+          },
+          {
+            "name": "Scion",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/sciom.webp"
+          },
+          {
+            "name": "Smart",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/smart.webp"
+          },
+          {
+            "name": "Subaru",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/subaru.webp"
+          },
+          {
+            "name": "Suzuki",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/suzuki.webp"
+          },
+          {
+            "name": "Toyota",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/toyota.webp"
+          },
+          {
+            "name": "Volvo",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/volvo.webp"
+          },
+          {
+            "name": "Volkswagen",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/vw.webp"
+          }
+        ],
+        "cta": {
+          "text": "Confirm Your Model",
+          "description": "Don’t see your car logo? Share the year, make, and model — we’ll confirm compatibility in minutes.",
+          "link": "#contact"
+        }
+      }
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC",
+        "description": "Car key programming requires precision—and not every locksmith is set up for it. We stay current with modern vehicle systems and security tech to handle the job properly.",
+        "features": [
+          {
+            "title": "Programming Done On-Site",
+            "description": "No need to visit a shop. Our mobile car locksmiths come to you with the tools and tech to program your key or fob on the spot.",
+            "icon": "map-pin"
+          },
+          {
+            "title": "Trained Key Programming Experts",
+            "description": "Our locksmiths are experienced with transponder, remote, and smart key programming for all major brands.",
+            "icon": "award"
+          },
+          {
+            "title": "Smart & Push-to-Start Keys Welcome",
+            "description": "We handle advanced key systems, including push-button start and chip-based keys, with precision and care.",
+            "icon": "briefcase"
+          },
+          {
+            "title": "Clear Quotes Before We Start",
+            "description": "You'll get an upfront price before any programming begins—no hidden fees, no surprises.",
+            "icon": "dollar-sign"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Get Your Free Quote"
+      }
+    },
+    {
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "What types of car keys can you program?",
+            "answer": "We program transponder keys, smart keys, key fobs, remote head keys, and push-to-start systems for most makes and models."
+          },
+          {
+            "question": "Can you program a key if I lost the original?",
+            "answer": "Yes. In most cases, we can program a new key from scratch, but we'll need to verify vehicle ownership before starting."
+          },
+          {
+            "question": "Can you erase old or lost keys from my car's system?",
+            "answer": "Yes. We can remove old or stolen keys from the car's memory so they can't be used to start or unlock the vehicle."
+          },
+          {
+            "question": "Is it possible to program a used key or fob from another vehicle?",
+            "answer": "Some vehicles allow reprogramming of used keys, but many do not. We'll check compatibility before proceeding."
+          },
+          {
+            "question": "Can you program a key I bought online?",
+            "answer": "In many cases, yes—but the key must be compatible with your vehicle's system. We'll inspect it and let you know before we begin."
+          },
+          {
+            "question": "Do I need to bring anything for the programming service?",
+            "answer": "You'll need a photo ID and vehicle ownership proof (registration, title, or insurance) so we can verify you're authorized to access the car."
+          }
+        ]
+      }
+    }
+  ]
+}

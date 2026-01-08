@@ -1,0 +1,27 @@
+{
+  "seo": {
+    "title": "Terms and Conditions & Privacy Policy | {{COMPANY_NAME}}",
+    "description": "Review the terms and privacy policy of {{COMPANY_NAME}}. Learn how we protect your information and outline service expectations.",
+    "h1": "Terms and Conditions of Use"
+  },
+  "hero": {
+    "description": "Please read these terms carefully before using our services"
+  },
+  "content": {
+    "lastModified": "{{CURRENT_DATE}}",
+    "sections": [
+      {
+        "heading": "Acceptance of Terms of Use",
+        "content": "By accessing and using the {{COMPANY_NAME}} website or engaging with any content, services, or products offered by {{COMPANY_NAME}}, you agree to be bound by these Terms and Conditions..."
+      },
+      {
+        "heading": "Privacy Policy",
+        "content": "We are committed to protecting your privacy. Please review our Privacy Policy, which governs your use of the site, to understand our practices..."
+      },
+      {
+        "heading": "Use License Agreement",
+        "content": "Permission to use and access this website is granted under a limited license, not a transfer of title..."
+      }
+    ]
+  }
+}

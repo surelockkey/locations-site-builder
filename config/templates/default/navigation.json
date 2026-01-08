@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Locations",
+      "href": "/locations"
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact-us"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "description": "Your trusted locksmith partner. Available 24/7 for emergency services and all your security needs.",
+  "tagline": "Professional locksmith services you can trust. Fast response times, expert technicians, and competitive pricing.",
+  "availability": "24/7 Available",
+  "emergencyTitle": "Need Emergency Locksmith Service?",
+  "emergencySubtitle": "We're available 24/7 to help you",
+  "emergencyButtonText": "Emergency Service",
+  "callButtonText": "Call",
+  "socialMedia": {
+    "instagram": "https://instagram.com/surelockkey_utah/",
+    "pinterest": "https://pinterest.com/surelockandkeyutah/",
+    "twitter": "https://x.com/SureLockKeyUtah",
+    "tiktok": "https://tiktok.com/@surelockkey_utah",
+    "medium": "https://medium.com/@surelockkeyutah",
+    "youtube": "https://www.youtube.com/@SureLockKeyUtahLLC",
+    "map": "https://maps.app.goo.gl/Hh9TfLPZCZPqubgVA"
+  },
+  "navigation": {
+    "services": {
+      "title": "Our Services",
+      "limit": 6
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "Locations",
+          "href": "/locations"
+        },
+        {
+          "label": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact-us"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/terms-and-conditions"
+        }
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog"
+        },
+        {
+          "label": "Careers",
+          "href": "/careers"
+        },
+        {
+          "label": "Testimonials",
+          "href": "/testimonials"
+        }
+      ]
+    },
+    "legal": {
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "/terms"
+        },
+        {
+          "label": "Sitemap",
+          "href": "/sitemap"
+        }
+      ]
+    }
+  },
+  "copyright": "All rights reserved."
+}

@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "primary": "#2563eb",
+    "secondary": "#f59e0b",
+    "accent": "#f59e0b",
+    "neutral": "#64748b",
+    "background": "#ffffff",
+    "text": "#1e293b",
+    "textMuted": "#64748b",
+    "footerBackground": "#1e293b",
+    "divider": "#e2e8f0",
+    "iconEmergency": "#dc2626",
+    "iconResidential": "#2563eb",
+    "iconCommercial": "#6366f1",
+    "iconAutomotive": "#eab308",
+    "sectionBgEmergency": "#ffffff",
+    "sectionBorderEmergency": "#f1f5f9",
+    "listBgEmergency": "#f9fafb",
+    "listBgCommercial": "#eef2ff",
+    "listBorderCommercial": "#e0e7ff",
+    "sectionBgAutomotive": "#1f2937",
+    "cardBgAutomotive": "#374151",
+    "cardBorderAutomotive": "#4b5563"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  }
+}

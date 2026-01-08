@@ -1,0 +1,61 @@
+{
+  "main": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Services",
+      "href": "/services",
+      "dropdown": [
+        {
+          "label": "Automotive Locksmith",
+          "href": "/services/automotive-locksmith",
+          "subtitle": "Car locks and keys"
+        },
+        {
+          "label": "Car Key Programming",
+          "href": "/services/car-key-programming",
+          "subtitle": "Smart keys and fobs"
+        },
+        {
+          "label": "Car Key Replacement",
+          "href": "/services/car-key-replacement",
+          "subtitle": "Lost or broken keys"
+        },
+        {
+          "label": "Emergency Locksmith",
+          "href": "/services/emergency-locksmith",
+          "subtitle": "24/7 fast response"
+        },
+        {
+          "label": "Lock Installation & Replacement",
+          "href": "/services/lock-installation-replacement",
+          "subtitle": "New locks and upgrades"
+        },
+        {
+          "label": "Lock Repair & Maintenance",
+          "href": "/services/lock-repair-maintenance",
+          "subtitle": "Fix sticky locks"
+        },
+        {
+          "label": "Mobile Locksmith",
+          "href": "/services/mobile-locksmith",
+          "subtitle": "On-site help"
+        }
+      ]
+    },
+    {
+      "label": "Locations",
+      "href": "/locations"
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact-us"
+    }
+  ]
+}

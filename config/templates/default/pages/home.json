@@ -1,0 +1,69 @@
+{
+  "slug": "home",
+  "title": "{{COMPANY_NAME}} - {{TAGLINE}}",
+  "seo": {
+    "title": "{{COMPANY_NAME}} - {{TAGLINE}}",
+    "description": "Professional locksmith services. Fast, reliable, and affordable solutions for all your lock and key needs.",
+    "h1": "Professional Locksmith Services",
+    "keywords": ["locksmith", "emergency locksmith", "lock repair", "key replacement"]
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "enabled": true,
+      "title": "Professional Locksmith Services",
+      "subtitle": "Fast, Reliable, and Affordable",
+      "description": "Your trusted locksmith provider. Available 24/7 for all your emergency and scheduled locksmith needs.",
+      "ctaPrimary": {
+        "text": "Call Now",
+        "link": "tel:{{PHONE_RAW}}"
+      },
+      "ctaSecondary": {
+        "text": "View Services",
+        "link": "/services"
+      },
+      "image": "/hero-image.jpg"
+    },
+    {
+      "type": "serviceList",
+      "enabled": true,
+      "title": "Our Services",
+      "subtitle": "Comprehensive locksmith solutions",
+      "services": []
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "title": "Why Choose Us?",
+      "subtitle": "Professional service you can trust",
+      "features": [
+        {
+          "title": "24/7 Availability",
+          "description": "Emergency services available around the clock",
+          "icon": "clock"
+        },
+        {
+          "title": "Fast Response",
+          "description": "Quick arrival times when you need us most",
+          "icon": "zap"
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Fully certified professional locksmiths",
+          "icon": "shield"
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "Transparent quotes with no hidden fees",
+          "icon": "dollar-sign"
+        }
+      ]
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "title": "Get a Free Quote",
+      "subtitle": "Contact us today for professional locksmith services"
+    }
+  ]
+}

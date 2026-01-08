@@ -1,0 +1,54 @@
+{
+  "slug": "emergency-locksmith",
+  "title": "Emergency Locksmith Services",
+  "subtitle": "24/7 Fast Response",
+  "seo": {
+    "title": "Emergency Locksmith Services | 24/7 Fast Response",
+    "description": "24/7 emergency locksmith services. Fast response for lockouts, lost keys, and urgent lock repairs.",
+    "h1": "Emergency Locksmith Services",
+    "keywords": ["emergency locksmith", "24/7 locksmith", "lockout service", "emergency lock repair"]
+  },
+  "hero": {
+    "title": "Emergency Locksmith Services",
+    "subtitle": "Available 24/7",
+    "description": "Locked out? Lost your keys? We provide fast emergency locksmith services when you need them most.",
+    "image": "/services/emergency.jpg",
+    "ctaPrimary": {
+      "text": "Call Now",
+      "link": "tel:{{PHONE_RAW}}"
+    }
+  },
+  "sections": [
+    {
+      "type": "contentBlock",
+      "title": "Fast Emergency Response",
+      "content": "When you're locked out or facing an urgent lock issue, our emergency locksmiths are ready to help 24/7. We provide fast, professional service to get you back inside quickly and safely."
+    },
+    {
+      "type": "serviceList",
+      "title": "Emergency Services",
+      "services": [
+        {
+          "title": "Home Lockouts",
+          "description": "Fast entry service when you're locked out of your home",
+          "icon": "home"
+        },
+        {
+          "title": "Car Lockouts",
+          "description": "Quick vehicle entry without damage",
+          "icon": "car"
+        },
+        {
+          "title": "Business Lockouts",
+          "description": "Emergency commercial locksmith services",
+          "icon": "building"
+        },
+        {
+          "title": "Lock Repairs",
+          "description": "Urgent repair for broken or jammed locks",
+          "icon": "wrench"
+        }
+      ]
+    }
+  ]
+}

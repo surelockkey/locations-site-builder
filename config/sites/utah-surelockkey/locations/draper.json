@@ -1,0 +1,125 @@
+{
+  "slug": "draper",
+  "title": "Draper Locksmith Services",
+  "seo": {
+    "title": "Draper Locksmith Services | Local Lock & Key Experts",
+    "description": "Draper locksmith services for homes, businesses, and vehicles. Learn how local professionals provide fast, reliable lock and key solutions.",
+    "h1": "Trusted Locksmith Services in Draper, Utah",
+    "keywords": "draper locksmith, emergency locksmith draper, residential locksmith draper, commercial locksmith draper, automotive locksmith draper"
+  },
+
+  "hero": {
+    "title": "Trusted Locksmith Services in Draper, Utah",
+    "description": "Looking for locksmith services in Draper that feel straightforward and professional? Sure Lock & Key provides on-site lock and key help—from quick lockouts to rekeys, lock replacements, and car key issues. Tell us what's going on, and we'll help you get scheduled.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Locations/Locations-1.webp",
+    "cta": {
+      "text": "Call (385) 533-4270",
+      "link": "tel:3855334270"
+    },
+    "address": "277 West 13490 South Apt#A407 Draper, UT 84020"
+  },
+  "page_data": {
+    "images": [
+      "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Locations/Locations-3.webp",
+      "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Locations/Locations-2.webp",
+      "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Locations/Locations-1.webp"
+    ],
+    "sections": [
+      {
+        "title": "Emergency Locksmith Draper",
+        "content": "Lock trouble tends to show up at the worst moment, like right before work, late at night, or when you're juggling errands. It might be a simple lockout, or it could be a worn lock, a broken key, or hardware that finally gives out. Our emergency locksmith Draper service answers quickly, explains the next step, and provides practical on-site help for homes, businesses, and vehicles.",
+        "services": [
+          "Home, business, and car lockout services",
+          "Rekeying after lost or stolen keys",
+          "Lock repair or replacement for doors, deadbolts, and cylinders",
+          "Mailbox openings (proof of ownership required)"
+        ]
+      },
+      {
+        "title": "Draper Residential Locksmith",
+        "content": "A good home lock setup should feel secure and simple to use every day. As a Draper residential locksmith, Sure Lock & Key serves homes, apartments, and condos. Whether you're moving in, dealing with a sticky lock, or upgrading your door hardware, our technicians can assess the issue and recommend options that make sense for your home.",
+        "services": [
+          "Lock repair, replacement, and installation",
+          "Door rekeying and master key setups",
+          "Deadbolt and hardware upgrades",
+          "Smart lock and keypad installation",
+          "Garage entry, patio, and sliding door locks",
+          "Door alignment and strike plate adjustments"
+        ]
+      },
+      {
+        "title": "Commercial Locksmith Services in Draper, Utah",
+        "content": "When staff changes happen, keys get copied, or access starts to feel messy, it's time to tighten things up. Sure Lock & Key helps Draper businesses organize access with rekey service, master key systems, and dependable door hardware that holds up day after day.",
+        "services": [
+          "Lock repair, replacement, and installation",
+          "Rekeying suites and storage areas",
+          "Master key systems for managers",
+          "Keypad and keyless entry setup",
+          "Panic bar and exit device installation and service",
+          "High-security hardware upgrades",
+          "Access control support for multi-user buildings"
+        ]
+      },
+      {
+        "title": "Automotive Locksmith in Draper",
+        "content": "Not every car key is the same, and that's where experience matters. Our automotive locksmith Draper team works with many key types and fob systems, and we can help on-site with lockouts, key cutting, and programming when supported.",
+        "services": [
+          "Car lockout service (doors, trunk, glove box)",
+          "Car key services: cutting standard, transponder, high-security, and laser-cut keys",
+          "Programming fobs and smart keys, resyncs after a battery change",
+          "Broken key extraction",
+          "Ignition repair and replacement"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "map",
+      "data": {
+        "title": "Our Draper Location & Contact",
+        "address": "277 West 13490 South Apt#A407 Draper, UT 84020",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.123!2d-111.888!3d40.524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDMxJzI2LjQiTiAxMTHCsDUzJzE2LjgiVw!5e0!3m2!1sen!2sus!4v1234567890"
+      }
+    },
+    {
+      "type": "contactForm",
+      "data": {
+        "title": "Schedule Service",
+        "description": "Need help now? Fill out the form, and we'll send a technician to your location."
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "How quickly can a locksmith get to me in Draper?",
+            "answer": "Response times depend on your location and the time of day. Call or message us with where you are and what's going on, and we'll share the next available ETA."
+          },
+          {
+            "question": "Do you offer emergency lockout service in Draper?",
+            "answer": "Yes. We help with home, business, and car lockouts. For the fastest help, call or text."
+          },
+          {
+            "question": "Should I rekey my locks or replace them?",
+            "answer": "Rekeying is often a good choice if the lock is in good shape and you want old keys to stop working. If the lock is worn, damaged, or doesn't fit your door properly, replacement may make more sense. We can take a look and explain the options."
+          },
+          {
+            "question": "Can you help if I lost my car keys or my fob stopped working?",
+            "answer": "In many cases, yes. Share the year, make, and model, and let us know if you have a spare key. We'll tell you the best next step for cutting or programming."
+          },
+          {
+            "question": "Do you work on smart locks and keypad locks?",
+            "answer": "Yes. We install and service many keypad and smart lock setups. Tell us what brand you have (or send a photo), and we'll confirm what's supported."
+          },
+          {
+            "question": "What information should I include when I contact you?",
+            "answer": "Your city or neighborhood, the type of service (home, business, or vehicle), and a short description of the problem. Photos of the lock or key can help with scheduling."
+          }
+        ]
+      }
+    }
+  ]
+}

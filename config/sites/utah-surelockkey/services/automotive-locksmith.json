@@ -1,0 +1,361 @@
+{
+  "slug": "automotive-locksmith",
+  "title": "Automotive Locksmith Services",
+  "subtitle": "Fast Car Lock Solutions",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+
+  "seo": {
+    "title": "Automotive Locksmith Services | Fast Car Lock Solutions",
+    "description": "Automotive locksmith services help with car lockouts, key replacement, and programming. Learn how professional service gets you back on the road safely.",
+    "h1": "Reliable Automotive Locksmith Services in Utah",
+    "keywords": [
+      "automotive locksmith",
+      "car locksmith",
+      "car key replacement",
+      "car lockout",
+      "ignition repair",
+      "transponder key programming"
+    ]
+  },
+  "hero": {
+    "title": "Reliable Automotive Locksmith Services in Utah",
+    "subtitle": "Mobile Service Across Utah",
+    "description": "Car problems have a way of happening at the worst time. Sure Lock & Key Utah LLC provides mobile automotive locksmith service across Utah, so you can get help at home, at work, or anywhere you're parked. Tell us what you're driving, and we'll take it from there.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "data": {
+        "title": "Smart, Keypad & Mechanical Lock Repair & Upkeep",
+        "description": "Locks and doors benefit from occasional tune-ups to stay secure and easy to use. The Sure Lock & Key team checks the hardware and the door/frame together, explains clear options, and completes the fix that fits your setup and budget. From classic deadbolts to keypads and smart locks, we restore smooth operation, tidy up the details, and leave you with a door that feels right every time.",
+        "items": [
+          "Deadbolt repair, tuning, and alignment",
+          "Latch, bolt, and strike plate adjustments",
+          "Smart lock troubleshooting, updates, and battery service",
+          "Mortise and rim cylinder service for heavy-use doors",
+          "Storefront and office lock hardware servicing",
+          "Cylinder repair and broken key extraction",
+          "Door and hinge alignment for smooth closing and locking",
+          "Keypad lock code resets and hardware repair",
+          "Patio and sliding door lock repair and track service",
+          "Routine lock maintenance: cleaning, lubrication, and checks"
+        ],
+        "cta": {
+          "question": "Can't find the service you're looking for?",
+          "subtitle": "Call us now — we're ready to answer 24/7.",
+          "buttonText": "Call us now",
+          "phoneNumber": "3855334270"
+        }
+      }
+    },
+    {
+      "type": "gallery",
+      "title": "See Our Recent Locksmith Work",
+      "images": [
+        {
+          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+          "alt": "Automotive locksmith service"
+        },
+        {
+          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+          "alt": "Car key replacement"
+        },
+        {
+          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+          "alt": "Mobile locksmith service"
+        }
+      ]
+    },
+    {
+      "type": "brandsWeServe",
+      "title": "Car Brands We Serve",
+      "description": "We service many popular car brands and model years, including everyday drivers and newer vehicles with fobs and smart keys.",
+      "brands": [
+        {
+          "name": "Acura",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/acura.webp"
+        },
+        {
+          "name": "Audi",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/audi.webp"
+        },
+        {
+          "name": "Bentley",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/bentley.webp"
+        },
+        {
+          "name": "BMW",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/bmw.webp"
+        },
+        {
+          "name": "Buick",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/buick.webp"
+        },
+        {
+          "name": "Cadillac",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/cadillac.webp"
+        },
+        {
+          "name": "Chevrolet",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/chevrolet.webp"
+        },
+        {
+          "name": "Chrysler",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/chrysler.webp"
+        },
+        {
+          "name": "Dodge",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/dodge.webp"
+        },
+        {
+          "name": "Fiat",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/fiat.webp"
+        },
+        {
+          "name": "Ford",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/ford.webp"
+        },
+        {
+          "name": "Freightliner",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/freightliner.webp"
+        },
+        {
+          "name": "Genesis",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/genesis.webp"
+        },
+        {
+          "name": "Geo",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/geo.webp"
+        },
+        {
+          "name": "GMC",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/gmc.webp"
+        },
+        {
+          "name": "Hino",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hino.webp"
+        },
+        {
+          "name": "Honda",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/honda.webp"
+        },
+        {
+          "name": "Hummer",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hummer.webp"
+        },
+        {
+          "name": "Hyundai",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hyundai.webp"
+        },
+        {
+          "name": "Infiniti",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/infinity.webp"
+        },
+        {
+          "name": "Isuzu",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/isuzu.webp"
+        },
+        {
+          "name": "Jaguar",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/jaguar.webp"
+        },
+        {
+          "name": "Jeep",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/jeep.webp"
+        },
+        {
+          "name": "Kia",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/kia.webp"
+        },
+        {
+          "name": "Land Rover",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/land-rover.webp"
+        },
+        {
+          "name": "Lexus",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/lexus.webp"
+        },
+        {
+          "name": "Lincoln",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/lincoln.webp"
+        },
+        {
+          "name": "Maserati",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/maserati.webp"
+        },
+        {
+          "name": "Mazda",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mazda.webp"
+        },
+        {
+          "name": "Mercedes-Benz",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mercedes-benz.webp"
+        },
+        {
+          "name": "Mercury",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mercury.webp"
+        },
+        {
+          "name": "Mini",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mini.webp"
+        },
+        {
+          "name": "Mitsubishi",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mitsubishi.webp"
+        },
+        {
+          "name": "Nissan",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/nissan.webp"
+        },
+        {
+          "name": "Oldsmobile",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/oldsmobile.webp"
+        },
+        {
+          "name": "Peterbilt",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/peterbilt.webp"
+        },
+        {
+          "name": "Plymouth",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/plymouth.webp"
+        },
+        {
+          "name": "Pontiac",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/pontiac.webp"
+        },
+        {
+          "name": "Porsche",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/porsche.webp"
+        },
+        {
+          "name": "Ram",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/ram.webp"
+        },
+        {
+          "name": "Rolls-Royce",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/rolls-royce.webp"
+        },
+        {
+          "name": "Saab",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/saab.webp"
+        },
+        {
+          "name": "Saturn",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/saturn.webp"
+        },
+        {
+          "name": "Scion",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/sciom.webp"
+        },
+        {
+          "name": "Smart",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/smart.webp"
+        },
+        {
+          "name": "Subaru",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/subaru.webp"
+        },
+        {
+          "name": "Suzuki",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/suzuki.webp"
+        },
+        {
+          "name": "Toyota",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/toyota.webp"
+        },
+        {
+          "name": "Volvo",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/volvo.webp"
+        },
+        {
+          "name": "Volkswagen",
+          "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/vw.webp"
+        }
+      ],
+      "cta": {
+        "text": "Contact Us",
+        "description": "Not sure about yours? Send your year, make, and model, and we'll let you know.",
+        "link": "#contact"
+      }
+    },
+    {
+      "type": "whyChoose",
+      "title": "Why Choose Sure Lock & Key Utah LLC",
+      "description": "When you're dealing with lockouts, key trouble, or ignition issues, you want an automotive locksmith who can show up ready and get you moving again. Sure Lock & Key Utah LLC keeps the process simple with practical solutions and clear communication.",
+      "features": [
+        {
+          "title": "Mobile Help Across Utah",
+          "description": "We come to your location for car lockout service, car key service, and on-site help when you're stuck.",
+          "icon": "truck"
+        },
+        {
+          "title": "Car Key Services That Fit Your Vehicle",
+          "description": "From standard keys to fobs and smart keys (when supported), we go by your year, make, and model so you get the right solution.",
+          "icon": "key"
+        },
+        {
+          "title": "Support for Ignition Issues",
+          "description": "If the key won't turn or the ignition is worn, we'll explain options for ignition repair or replacement and what makes the most sense.",
+          "icon": "settings"
+        },
+        {
+          "title": "Careful, Professional Work",
+          "description": "We handle lockouts and broken key extraction with safe techniques that respect your vehicle.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "contactForm",
+      "title": "Get Your Free Quote",
+      "id": "contact-form",
+
+      "data": {
+        "title": "Schedule Trusted Locksmith Services in Utah",
+        "description": "Need a locksmith visit? Call (385) 533-4270 or fill out the form below. Our support team is available 24/7 to answer your questions, provide service details, and help you schedule an appointment at a time that works best for you.",
+        "phone": "(385) 533-4270",
+        "email": "info@surelockkey-utah.com",
+        "address": "Draper, UT"
+      }
+    },
+    {
+      "type": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "Can you help if I'm locked out of my car?",
+          "answer": "Yes. We provide car lockout help for doors, trunks, and the glove box, and we focus on careful entry."
+        },
+        {
+          "question": "What types of car keys do you work with?",
+          "answer": "We handle many key types, including standard keys, transponder keys, and some smart keys and fobs (depending on the vehicle)."
+        },
+        {
+          "question": "My key turns the door but won't start the car. Can you help?",
+          "answer": "Often, yes. That can be a programming or transponder-related issue. Share your vehicle details and we'll walk you through your options."
+        },
+        {
+          "question": "Can you remove a key that snapped in the ignition or door lock?",
+          "answer": "Yes. We offer broken key extraction from locks and ignitions, and we'll let you know if any parts look worn."
+        },
+        {
+          "question": "Do I need a tow for ignition problems?",
+          "answer": "Not always. Many ignition-related issues can be handled on-site. Tell us what the key is doing (or not doing), and we'll tell you the next step."
+        },
+        {
+          "question": "When should I call instead of using the form?",
+          "answer": "Call or text for lockouts and time-sensitive situations. The form works well for non-urgent questions and scheduling requests."
+        }
+      ]
+    }
+  ]
+}

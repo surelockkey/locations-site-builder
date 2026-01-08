@@ -1,0 +1,5 @@
+{
+  "siteId": "{{SITE_ID}}",
+  "domain": "{{DOMAIN}}",
+  "theme": "professional"
+}

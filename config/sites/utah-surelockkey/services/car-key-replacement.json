@@ -1,0 +1,348 @@
+{
+  "id": "car-key-replacement",
+  "slug": "car-key-replacement",
+  "title": "Car Key Replacement",
+  "subtitle": "Professional Car Key Replacement Services",
+  "description": "Lost or broken car key? We offer fast car key replacement across Utah, including smart keys and remotes — no dealership wait, no towing required.",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Replacement/Car+Key+Replacement-2.webp",
+  "seo": {
+    "title": "Car Key Replacement in Utah | Get a New Key Made Fast",
+    "description": "Lost or broken car key? We offer fast car key replacement across Utah, including smart keys and remotes — no dealership wait, no towing required.",
+    "h1": "Professional Car Key Replacement Services",
+    "keywords": [
+      "car key replacement",
+      "mobile car key replacement near me",
+      "key fob replacement",
+      "car locksmith"
+    ]
+  },
+  "hero": {
+    "title": "Professional Car Key Replacement Services",
+    "subtitle": "Fast Mobile Service",
+    "description": "Whether you've lost your only car key or need a backup, we've got you covered. Our mobile locksmiths replace and cut car keys on-site anywhere in Utah—quickly, professionally, and with no dealership delays.",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Replacement/Car+Key+Replacement-2.webp",
+    "ctaPrimary": {
+      "text": "Call Us Now",
+      "link": "tel:3855334270"
+    },
+    "ctaSecondary": {
+      "text": "Get a Free Quote",
+      "link": "#quote"
+    }
+  },
+  "sections": [
+    {
+      "type": "serviceInfo",
+      "enabled": true,
+      "data": {
+        "title": "Car Key Replacement Services in Utah",
+        "description": "We offer on-site car key replacement for a wide range of makes and models—whether you've lost your only key or just need a spare. From basic keys to key fobs and smart systems, we handle it all with speed and precision.",
+        "items": [
+          "Standard and transponder key cutting",
+          "Car key duplication and spare creation",
+          "Laser-cut & high-security key services",
+          "Key fob replacement & remote programming",
+          "Broken or worn-out key shell replacement",
+          "Trunk and glovebox key replacement"
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "enabled": true,
+      "data": {
+        "title": "See Our Recent Locksmith Work",
+        "images": [
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Replacement/Car+Key+Replacement-1.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Replacement/Car+Key+Replacement-3.webp",
+          "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Car+Key+Replacement/Car+Key+Replacement.webp"
+        ]
+      }
+    },
+    {
+      "type": "brandsWeServe",
+      "enabled": true,
+      "data": {
+        "title": "Car Brands We Serve",
+        "description": "We provide car key replacement and key fob programming for nearly all major makes and models, including domestic, European, and luxury vehicles.",
+        "brands": [
+          {
+            "name": "Acura",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/acura.webp"
+          },
+          {
+            "name": "Audi",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/audi.webp"
+          },
+          {
+            "name": "Bentley",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/bentley.webp"
+          },
+          {
+            "name": "BMW",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/bmw.webp"
+          },
+          {
+            "name": "Buick",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/buick.webp"
+          },
+          {
+            "name": "Cadillac",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/cadillac.webp"
+          },
+          {
+            "name": "Chevrolet",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/chevrolet.webp"
+          },
+          {
+            "name": "Chrysler",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/chrysler.webp"
+          },
+          {
+            "name": "Dodge",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/dodge.webp"
+          },
+          {
+            "name": "Fiat",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/fiat.webp"
+          },
+          {
+            "name": "Ford",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/ford.webp"
+          },
+          {
+            "name": "Freightliner",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/freightliner.webp"
+          },
+          {
+            "name": "Genesis",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/genesis.webp"
+          },
+          {
+            "name": "Geo",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/geo.webp"
+          },
+          {
+            "name": "GMC",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/gmc.webp"
+          },
+          {
+            "name": "Hino",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hino.webp"
+          },
+          {
+            "name": "Honda",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/honda.webp"
+          },
+          {
+            "name": "Hummer",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hummer.webp"
+          },
+          {
+            "name": "Hyundai",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/hyundai.webp"
+          },
+          {
+            "name": "Infiniti",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/infinity.webp"
+          },
+          {
+            "name": "Isuzu",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/isuzu.webp"
+          },
+          {
+            "name": "Jaguar",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/jaguar.webp"
+          },
+          {
+            "name": "Jeep",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/jeep.webp"
+          },
+          {
+            "name": "Kia",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/kia.webp"
+          },
+          {
+            "name": "Land Rover",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/land-rover.webp"
+          },
+          {
+            "name": "Lexus",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/lexus.webp"
+          },
+          {
+            "name": "Lincoln",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/lincoln.webp"
+          },
+          {
+            "name": "Maserati",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/maserati.webp"
+          },
+          {
+            "name": "Mazda",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mazda.webp"
+          },
+          {
+            "name": "Mercedes-Benz",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mercedes-benz.webp"
+          },
+          {
+            "name": "Mercury",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mercury.webp"
+          },
+          {
+            "name": "Mini",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mini.webp"
+          },
+          {
+            "name": "Mitsubishi",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/mitsubishi.webp"
+          },
+          {
+            "name": "Nissan",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/nissan.webp"
+          },
+          {
+            "name": "Oldsmobile",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/oldsmobile.webp"
+          },
+          {
+            "name": "Peterbilt",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/peterbilt.webp"
+          },
+          {
+            "name": "Plymouth",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/plymouth.webp"
+          },
+          {
+            "name": "Pontiac",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/pontiac.webp"
+          },
+          {
+            "name": "Porsche",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/porsche.webp"
+          },
+          {
+            "name": "Ram",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/ram.webp"
+          },
+          {
+            "name": "Rolls-Royce",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/rolls-royce.webp"
+          },
+          {
+            "name": "Saab",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/saab.webp"
+          },
+          {
+            "name": "Saturn",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/saturn.webp"
+          },
+          {
+            "name": "Scion",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/sciom.webp"
+          },
+          {
+            "name": "Smart",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/smart.webp"
+          },
+          {
+            "name": "Subaru",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/subaru.webp"
+          },
+          {
+            "name": "Suzuki",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/suzuki.webp"
+          },
+          {
+            "name": "Toyota",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/toyota.webp"
+          },
+          {
+            "name": "Volvo",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/volvo.webp"
+          },
+          {
+            "name": "Volkswagen",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/images/vw.webp"
+          }
+        ],
+        "cta": {
+          "text": "Contact Us",
+          "description": "Not sure about yours? Send your year, make, and model, and we'll let you know.",
+          "link": "#contact"
+        }
+      }
+    },
+    {
+      "type": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC",
+        "description": "We make car key replacement easy, fast, and stress-free. Whether you're stuck in a parking lot or just want a spare made at home, our mobile locksmith team delivers reliable, high-quality service right where you need it.",
+        "features": [
+          {
+            "title": "Mobile Car Key Replacement Near You",
+            "description": "We come to your location anywhere in Utah to cut and program your new key—no towing or dealership wait.",
+            "icon": "map-pin"
+          },
+          {
+            "title": "Key Fob Duplication & Programming",
+            "description": "We replace and duplicate key fobs for most vehicles, syncing them correctly with your car's onboard system.",
+            "icon": "briefcase"
+          },
+          {
+            "title": "All Key Types Covered",
+            "description": "From basic transponder keys to high-security and push-to-start systems, we handle it all with expert tools and training.",
+            "icon": "award"
+          },
+          {
+            "title": "Fair, Upfront Pricing",
+            "description": "Get an upfront quote before any work begins—no hidden charges, no upselling, just honest service you can trust.",
+            "icon": "dollar-sign"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Get Your Free Quote"
+      }
+    },
+    {
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "Can you make a new key if I've lost the original?",
+            "answer": "Yes, we can create a replacement even if you don't have the original key. We'll verify ownership and cut a new one on-site."
+          },
+          {
+            "question": "Can you come to my location if I'm locked out without a key?",
+            "answer": "Yes—we offer mobile car key replacement anywhere in Utah. We'll unlock your vehicle and make a new key on the spot."
+          },
+          {
+            "question": "Can you make a key for a car I bought used, even if I never had the original?",
+            "answer": "Yes. As long as you can verify ownership, we can make a key from scratch using your vehicle's VIN and lock system."
+          },
+          {
+            "question": "Do I need to show proof of ownership to get a replacement key?",
+            "answer": "Yes. For your security, we'll ask for photo ID and vehicle documentation before cutting or programming any key."
+          },
+          {
+            "question": "What if my key is broken in the ignition or door lock?",
+            "answer": "We can extract the broken piece safely and cut a new key on-site—no need to replace the ignition unless it's damaged."
+          },
+          {
+            "question": "Can I get a spare key made if I only have a fob?",
+            "answer": "Yes. Many fobs contain a backup key blade inside, and we can often duplicate the chip and key function from the fob."
+          }
+        ]
+      }
+    }
+  ]
+}

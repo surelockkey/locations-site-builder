@@ -1,0 +1,233 @@
+{
+  "path": "/",
+  "seo": {
+    "title": "Sure Lock & Key Utah LLC | Trusted Locksmith Services",
+    "description": "Sure Lock & Key provides reliable residential, commercial, and automotive locksmith services in Utah. Get expert solutions for your locks and keys.",
+    "h1": "Professional Locksmith Services in Utah — Fast, Local, and Reliable",
+    "keywords": [
+      "locksmith services",
+      "automotive locksmith",
+      "emergency locksmith",
+      "car key replacement",
+      "lockout services"
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "component": "hero",
+      "enabled": true,
+      "data": {
+        "title": "Professional Locksmith Services in Utah — Fast, Local, and Reliable",
+        "subtitle": "Available for lockouts, lock repairs, car key replacements, and all your locksmith needs.",
+        "description": "Open 7 Days a Week | 7:00 AM – 7:00 PM",
+        "ctaPrimary": {
+          "text": "(385) 533-4270 — Call Anytime",
+          "link": "tel:3855334270",
+          "type": "phone"
+        },
+        "ctaSecondary": {
+          "text": "Get a Free Quote",
+          "link": "#contact-form",
+          "type": "link"
+        },
+        "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+        "imageAlt": "Professional locksmith services in Utah"
+      }
+    },
+    {
+      "id": "services-intro",
+      "component": "contentBlock",
+      "enabled": true,
+      "data": {
+        "title": "Our Services",
+        "content": "Sure Lock & Key Utah LLC offers trusted locksmith services across Utah. Whether you're dealing with a sudden lockout or need help with your car keys, our local team is ready to solve the issue quickly and professionally.",
+        "layout": "centered"
+      }
+    },
+    {
+      "id": "services-grid",
+      "component": "services",
+      "enabled": true,
+      "data": {
+        "title": "",
+        "services": [
+          {
+            "id": "lock-installation",
+            "title": "Lock Installation & Replacement",
+            "description": "Need new locks? We install and replace locks to improve security for homes, offices, and storefronts.",
+            "icon": "lock",
+            "link": "/services/lock-installation-replacement"
+          },
+          {
+            "id": "lock-repair",
+            "title": "Lock Repair & Maintenance",
+            "description": "We restore damaged or aging locks and offer upkeep services to keep your doors working smoothly every day.",
+            "icon": "wrench",
+            "link": "/services/lock-repair-maintenance"
+          },
+          {
+            "id": "automotive",
+            "title": "Automotive Locksmith Services",
+            "description": "Locked out or can't start your car? Our automotive locksmiths can handle key, ignition, and lock issues on-site.",
+            "icon": "car",
+            "link": "/services/automotive-locksmith"
+          },
+          {
+            "id": "emergency",
+            "title": "Emergency Locksmith Services",
+            "description": "When you're locked out and time matters, we deliver fast emergency locksmith support across Utah.",
+            "icon": "alert-circle",
+            "link": "/services/emergency-locksmith"
+          },
+          {
+            "id": "mobile",
+            "title": "Mobile Locksmith Services",
+            "description": "Need a locksmith to come to you? Our mobile team arrives fully equipped to handle lock and key issues on-site.",
+            "icon": "truck",
+            "link": "/services/mobile-locksmith"
+          },
+          {
+            "id": "car-key-replacement",
+            "title": "Car Key Replacement",
+            "description": "Can't find your car keys? We cut and program replacements on-site, with no towing or dealership delays.",
+            "icon": "key",
+            "link": "/services/car-key-replacement"
+          },
+          {
+            "id": "car-key-programming",
+            "title": "Car Key Programming",
+            "description": "We program smart keys, fobs, and remotes for smooth syncing and secure vehicle access wherever you are.",
+            "icon": "smartphone",
+            "link": "/services/car-key-programming"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why-choose",
+      "component": "whyChoose",
+      "enabled": true,
+      "data": {
+        "title": "Why Choose Sure Lock & Key Utah LLC?",
+        "description": "Choosing the right locksmith matters. At Sure Lock & Key, we focus on providing dependable service that's fast, precise, and easy to work with. We're equipped for a wide range of needs, from lock repairs to car key solutions. Here's what makes us a trusted choice across Utah.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Experienced Technicians",
+            "description": "Every locksmith on our team is trained, licensed, and experienced in residential, commercial, and automotive work."
+          },
+          {
+            "icon": "dollar-sign",
+            "title": "Transparent Pricing",
+            "description": "Clear quotes before any work begins. Our pricing is straightforward and fair for every service we offer."
+          },
+          {
+            "icon": "clock",
+            "title": "Full-Service Locksmith Support",
+            "description": "From lock repairs to car key programming, we offer a wide range of services in one visit. No need for multiple appointments."
+          },
+          {
+            "icon": "map-pin",
+            "title": "Locally Operated",
+            "description": "Based in Utah, we're familiar with the area and provide services that are both efficient and tailored to local needs."
+          }
+        ]
+      }
+    },
+    {
+      "id": "brands-we-serve",
+      "component": "brandsWeServe",
+      "enabled": true,
+      "data": {
+        "title": "We Serve",
+        "description": "We work with all major lock and key brands to provide comprehensive service",
+        "brands": [
+          {
+            "name": "Schlage",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_schlage-new.webp"
+          },
+          {
+            "name": "Kwikset",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_kwikset-new.webp"
+          },
+          {
+            "name": "Yale",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_yale-new.webp"
+          },
+          {
+            "name": "Medeco",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_medeco-new.webp"
+          },
+          {
+            "name": "Baldwin",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_baldwin-new.webp"
+          },
+          {
+            "name": "Mul-T-Lock",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_mul-t-lock-new.webp"
+          },
+          {
+            "name": "Guardian",
+            "logo": "https://car-we-serve-logos.s3.us-east-2.amazonaws.com/imgi_1_guardian-new.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "areas-and-hours",
+      "component": "areasAndHours",
+      "enabled": true
+    },
+    {
+      "id": "contact-form",
+      "component": "contactForm",
+      "enabled": true,
+      "data": {
+        "title": "Schedule Trusted Locksmith Services in Utah",
+        "description": "Need a locksmith visit? Call (385) 533-4270 or fill out the form below. Our support team is available 24/7 to answer your questions, provide service details, and help you schedule an appointment at a time that works best for you.",
+        "phone": "(385) 533-4270",
+        "email": "info@surelockkey-utah.com",
+        "address": "Draper, UT"
+      }
+    },
+    {
+      "id": "faq",
+      "component": "faq",
+      "enabled": true,
+      "data": {
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "Do I need to replace my locks after moving into a new place?",
+            "answer": "In most cases, rekeying your existing locks is enough to restore full control over who has access. It's more cost-effective than replacement and still ensures that old keys no longer work."
+          },
+          {
+            "question": "How long does it take to get service?",
+            "answer": "That depends on your location and the time of day, but our support team will give you an accurate timeframe when you call. We always aim to respond as quickly as possible."
+          },
+          {
+            "question": "Do I need an appointment, or can I call the same day?",
+            "answer": "You can call us anytime—no appointment is needed for most services. We'll check availability and schedule the soonest possible visit that fits your location and issue."
+          },
+          {
+            "question": "Are your locksmiths licensed and insured?",
+            "answer": "Yes, all of our technicians are licensed, insured, and trained to follow best practices. You're working with professionals who know what they're doing."
+          },
+          {
+            "question": "Do you work with commercial properties?",
+            "answer": "Yes, we provide locksmith services for offices, retail spaces, warehouses, and other commercial buildings. We handle everything from access control to master key systems."
+          },
+          {
+            "question": "Can you open a locked safe or cabinet?",
+            "answer": "Yes, we offer non-destructive opening for safes, cabinets, and secure boxes. Our locksmiths use the proper tools to open them without damage when possible."
+          },
+          {
+            "question": "Can I supply my own lock for installation?",
+            "answer": "Yes, if you already have a lock you'd like us to install, we can do that. We'll check compatibility and make sure it's fitted correctly."
+          }
+        ]
+      }
+    }
+  ]
+}

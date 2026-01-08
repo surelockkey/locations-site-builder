@@ -1,0 +1,96 @@
+{
+  "slug": "example-city",
+  "title": "{{CITY_NAME}} Locksmith Services",
+  "seo": {
+    "title": "{{CITY_NAME}} Locksmith Services | Local Lock & Key Experts",
+    "description": "{{CITY_NAME}} locksmith services for homes, businesses, and vehicles. Learn how local professionals provide fast, reliable lock and key solutions.",
+    "h1": "Trusted Locksmith Services in {{CITY_NAME}}",
+    "keywords": "{{CITY_NAME}} locksmith, emergency locksmith {{CITY_NAME}}, residential locksmith {{CITY_NAME}}, commercial locksmith {{CITY_NAME}}"
+  },
+  "hero": {
+    "title": "Trusted Locksmith Services in {{CITY_NAME}}",
+    "description": "Looking for locksmith services in {{CITY_NAME}} that feel straightforward and professional? {{COMPANY_NAME}} provides on-site lock and key help—from quick lockouts to rekeys, lock replacements, and car key issues.",
+    "image": "/locksmith-hero.jpg",
+    "cta": {
+      "text": "Call {{PHONE}}",
+      "link": "tel:{{PHONE_DIGITS}}"
+    },
+    "address": "{{ADDRESS}}"
+  },
+  "sections": [
+    {
+      "type": "contentBlock",
+      "data": {
+        "title": "Emergency Locksmith {{CITY_NAME}}",
+        "content": "Lock trouble tends to show up at the worst moment. Our emergency locksmith {{CITY_NAME}} service answers quickly, explains the next step, and provides practical on-site help for homes, businesses, and vehicles.",
+        "items": [
+          "Home, business, and car lockout services",
+          "Rekeying after lost or stolen keys",
+          "Lock repair or replacement",
+          "Emergency response available"
+        ]
+      }
+    },
+    {
+      "type": "contentBlock",
+      "data": {
+        "title": "Residential Locksmith",
+        "content": "A good home lock setup should feel secure and simple to use every day. Whether you're moving in, dealing with a sticky lock, or upgrading your door hardware, our technicians can help.",
+        "items": [
+          "Lock repair, replacement, and installation",
+          "Door rekeying and master key setups",
+          "Deadbolt and hardware upgrades",
+          "Smart lock installation"
+        ]
+      }
+    },
+    {
+      "type": "contentBlock",
+      "data": {
+        "title": "Commercial Locksmith Services",
+        "content": "We help businesses organize access with rekey service, master key systems, and dependable door hardware.",
+        "items": [
+          "Lock repair and replacement",
+          "Master key systems",
+          "Keypad and keyless entry",
+          "Access control support"
+        ]
+      }
+    },
+    {
+      "type": "map",
+      "data": {
+        "title": "Our Location & Contact",
+        "address": "{{ADDRESS}}",
+        "embedUrl": "{{GOOGLE_MAPS_EMBED_URL}}"
+      }
+    },
+    {
+      "type": "contactForm",
+      "data": {
+        "title": "Schedule Service",
+        "description": "Need help now? Fill out the form, and we'll send a technician to your location."
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "How quickly can you get to me?",
+            "answer": "Response times depend on your location and the time of day. Contact us for an accurate ETA."
+          },
+          {
+            "question": "Do you offer emergency lockout service?",
+            "answer": "Yes. We help with home, business, and car lockouts."
+          },
+          {
+            "question": "Should I rekey my locks or replace them?",
+            "answer": "Rekeying is often a good choice if the lock is in good shape. If the lock is worn or damaged, replacement may make more sense."
+          }
+        ]
+      }
+    }
+  ]
+}

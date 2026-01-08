@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Locksmith Service Gallery | See Our Work in Action",
+    "description": "View our locksmith service gallery to see completed projects, lock installations, and security solutions delivered by our skilled technicians.",
+    "h1": "Explore Our Locksmith Work Gallery",
+    "keywords": "locksmith gallery, locksmith work photos, lock installation photos, car key programming images, locksmith portfolio Utah"
+  },
+  "hero": {
+    "title": "Explore Our Locksmith Work Gallery",
+    "description": "Real locksmith work, real results. From homes to vehicles, take a look at recent jobs our technicians have completed."
+  },
+  "gallery": {
+    "variant": "1",
+    "photos": [
+      {
+        "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Gallery/Gallery.webp",
+        "alt": "Car key programming service"
+      },
+
+      {
+        "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Gallery/Gallery-1.webp",
+        "alt": "Car key programming service"
+      },
+
+      {
+        "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Gallery/Gallery-2.webp",
+        "alt": "Car key programming service"
+      },
+
+      {
+        "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Gallery/Gallery-3.webp",
+        "alt": "Car key programming service"
+      },
+
+      {
+        "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Gallery/Gallery-4.webp",
+        "alt": "Car key programming service"
+      },
+
+      {
+        "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Gallery/Gallery-5.webp",
+        "alt": "Car key programming service"
+      }
+    ]
+  }
+}

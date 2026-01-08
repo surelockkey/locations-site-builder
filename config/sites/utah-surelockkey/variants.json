@@ -1,0 +1,32 @@
+{
+  "header": "variant1",
+  "hero": "variant2",
+  "serviceList": "variant4",
+  "whyChoose": "variant2",
+
+  "brandsWeServe": "1",
+  "areasAndHours": "1",
+  "cta": "variant1",
+
+  "services": "variant3",
+
+  "locations": "variant1",
+  "locationList": "1",
+
+  "serviceInfo": "1",
+  "gallery": "variant2",
+  "photoGallery": "1",
+  "brands": "variant1",
+  "contact": "variant1",
+
+  "faq": "variant1",
+  "contentBlock": "variant1",
+  "coverageMap": "variant1",
+  "termsContent": "1",
+  "locationPageContent": "1",
+  "footer": "variant1",
+
+  "contact_us_page": "1",
+  "contactInfo": "1",
+  "contactFormSection": "2"
+}
