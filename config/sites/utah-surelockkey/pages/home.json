@@ -27,7 +27,7 @@
         },
         "ctaSecondary": {
           "text": "Get a Free Quote",
-          "link": "/contact-us",
+          "link": "/contact-us/",
           "type": "link"
         },
         "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
@@ -56,49 +56,49 @@
             "title": "Lock Installation & Replacement",
             "description": "Need new locks? We install and replace locks to improve security for homes, offices, and storefronts.",
             "icon": "lock",
-            "link": "/services/lock-installation-replacement"
+            "link": "/services/lock-installation-replacement/"
           },
           {
             "id": "lock-repair",
             "title": "Lock Repair & Maintenance",
             "description": "We restore damaged or aging locks and offer upkeep services to keep your doors working smoothly every day.",
             "icon": "wrench",
-            "link": "/services/lock-repair-maintenance"
+            "link": "/services/lock-repair-maintenance/"
           },
           {
             "id": "automotive",
             "title": "Automotive Locksmith Services",
             "description": "Locked out or can't start your car? Our automotive locksmiths can handle key, ignition, and lock issues on-site.",
             "icon": "car",
-            "link": "/services/automotive-locksmith"
+            "link": "/services/automotive-locksmith/"
           },
           {
             "id": "emergency",
             "title": "Emergency Locksmith Services",
             "description": "When you're locked out and time matters, we deliver fast emergency locksmith support across Utah.",
             "icon": "alert-circle",
-            "link": "/services/emergency-locksmith"
+            "link": "/services/emergency-locksmith/"
           },
           {
             "id": "mobile",
             "title": "Mobile Locksmith Services",
             "description": "Need a locksmith to come to you? Our mobile team arrives fully equipped to handle lock and key issues on-site.",
             "icon": "truck",
-            "link": "/services/mobile-locksmith"
+            "link": "/services/mobile-locksmith/"
           },
           {
             "id": "car-key-replacement",
             "title": "Car Key Replacement",
             "description": "Can't find your car keys? We cut and program replacements on-site, with no towing or dealership delays.",
             "icon": "key",
-            "link": "/services/car-key-replacement"
+            "link": "/services/car-key-replacement/"
           },
           {
             "id": "car-key-programming",
             "title": "Car Key Programming",
             "description": "We program smart keys, fobs, and remotes for smooth syncing and secure vehicle access wherever you are.",
             "icon": "smartphone",
-            "link": "/services/car-key-programming"
+            "link": "/services/car-key-programming/"
           }
         ]
       }

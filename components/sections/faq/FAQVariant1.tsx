@@ -22,7 +22,7 @@ export default function FAQVariant1({ data }: FAQVariant1Props) {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center text-balance">{data.title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center text-balance">{data.title}</h2>
 
           <Accordion type="single" collapsible className="w-full">
             {faqItems.map((faq, index) => (

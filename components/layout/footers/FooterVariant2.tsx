@@ -29,7 +29,7 @@ export function FooterVariant2({ branding, contact, services, footerConfig }: Fo
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           <div>
-            <h2 className="text-4xl font-bold mb-6">{branding.companyName}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{branding.companyName}</h2>
             <p className="text-white/90 mb-8 text-lg max-w-md">
               {footerConfig.description}
             </p>

@@ -28,7 +28,7 @@
     },
     "ctaSecondary": {
       "text": "Get a Free Quote",
-      "link": "#quote"
+      "link": "/contact-us/"
     }
   },
   "sections": [
@@ -269,8 +269,7 @@
         ],
         "cta": {
           "text": "Confirm Your Model",
-          "description": "Don’t see your car logo? Share the year, make, and model — we’ll confirm compatibility in minutes.",
-          "link": "#contact"
+          "description": "Don’t see your car logo? Share the year, make, and model — we’ll confirm compatibility in minutes."
         }
       }
     },

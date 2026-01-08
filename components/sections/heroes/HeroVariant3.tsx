@@ -35,7 +35,7 @@ export default function HeroVariant3({ data, siteConfig }: HeroVariant3Props) {
               Professional Service
             </div>
             <h1
-              className="text-5xl font-extrabold leading-tight lg:text-6xl text-balance"
+              className="text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl text-balance"
               style={{ color: "var(--color-text)" }}
             >
               {data.title}

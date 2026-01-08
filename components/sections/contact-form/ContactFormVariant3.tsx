@@ -49,7 +49,7 @@ export default function ContactFormVariant3({
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              {title && <h2 className="text-4xl font-bold mb-4">{title}</h2>}
+              {title && <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>}
               {description && <p className="text-lg text-muted-foreground mb-8">{description}</p>}
 
               <div className="space-y-6">

@@ -42,6 +42,7 @@ export async function generateMetadata({
     const siteConfig = await loadSiteConfig(siteId);
 
     const canonicalUrl = `https://${siteConfig.domain}/services/${slug}`;
+    console.log(serviceConfig.seo.title);
 
     return {
       title: serviceConfig.seo.title,

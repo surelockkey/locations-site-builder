@@ -21,7 +21,7 @@ export function TermsContentVariant1({ data }: TermsContentProps) {
         <div className="space-y-8">
           {data.sections.map((section, index) => (
             <Card key={index} className="p-6">
-              <h2 className="text-2xl font-bold mb-4" style={{ color: "var(--color-primary)" }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "var(--color-primary)" }}>
                 {section.heading}
               </h2>
               <div className="prose prose-sm max-w-none">

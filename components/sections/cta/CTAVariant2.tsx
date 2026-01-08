@@ -21,7 +21,7 @@ export default function CTAVariant2({ data }: CTAVariant2Props) {
         <Card className="mx-auto max-w-2xl shadow-xl">
           <CardContent className="p-8">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4 text-balance">{data.title}</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-balance">{data.title}</h2>
               {data.description && <p className="text-gray-600 text-pretty">{data.description}</p>}
             </div>
 

@@ -28,7 +28,7 @@
     },
     "ctaSecondary": {
       "text": "Get a Free Quote",
-      "link": "#quote"
+      "link": "/contact-us/"
     }
   },
   "sections": [
@@ -281,9 +281,8 @@
         }
       ],
       "cta": {
-        "text": "Contact Us",
-        "description": "Not sure about yours? Send your year, make, and model, and we'll let you know.",
-        "link": "#contact"
+        "text": "Call us now",
+        "description": "Not sure about yours? Send your year, make, and model, and we'll let you know."
       }
     },
     {

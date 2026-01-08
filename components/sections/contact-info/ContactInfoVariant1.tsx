@@ -18,7 +18,7 @@ export default function ContactInfoVariant1({
     <div className="space-y-8">
       <div>
         <h2
-          className="text-4xl md:text-5xl font-bold leading-tight"
+          className="text-3xl md:text-4xl font-bold leading-tight"
           style={{ color: "var(--color-text)" }}
         >
           Fastest Way to Reach Us

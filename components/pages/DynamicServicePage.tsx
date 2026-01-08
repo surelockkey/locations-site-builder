@@ -130,7 +130,8 @@ export default function DynamicServicePage({
                     <ContactUs
                       description={sectionData.cta.description}
                       buttonText={sectionData.cta.text || "Contact Us"}
-                      link={sectionData.cta.link || "#contact"}
+                      link={sectionData.cta.link}
+                      phone={siteConfig.contact.phone}
                     />
                   </div>
                 )}
@@ -143,7 +144,7 @@ export default function DynamicServicePage({
               <section key={index} className="py-16 px-4 bg-white">
                 <div className="container mx-auto max-w-6xl">
                   <h2
-                    className="text-3xl font-bold text-center mb-12"
+                    className="text-3xl md:text-4xl font-bold text-center mb-12"
                     style={{ color: "var(--color-text)" }}
                   >
                     {galleryData.title}

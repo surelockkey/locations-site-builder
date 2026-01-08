@@ -29,7 +29,7 @@ export default function FAQVariant4({ data }: FAQVariant4Props) {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl">
-          <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center text-balance">{data.title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center text-balance">{data.title}</h2>
 
           <div className="relative mb-8">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />

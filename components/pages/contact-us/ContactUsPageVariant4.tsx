@@ -17,7 +17,7 @@ export default function ContactUsPageVariant4({ siteConfig, contactConfig }: Con
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div>
-              <h1 className="text-3xl md:text-4xl font-bold" style={{ color: "var(--color-text)" }}>
+              <h1 className="text-4xl md:text-5xl font-bold" style={{ color: "var(--color-text)" }}>
                 {contactConfig.h1 || "Contact Us"}
               </h1>
               <p className="text-base md:text-lg mt-2" style={{ color: "var(--color-text)" }}>

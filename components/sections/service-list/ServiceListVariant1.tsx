@@ -28,7 +28,7 @@ export default function ServiceListVariant1({ data }: ServiceListVariant1Props) 
       <div className="container mx-auto px-4">
         {data.title && (
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-balance text-gray-900">{data.title}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-gray-900">{data.title}</h2>
             {data.description && (
               <p className="text-lg max-w-3xl mx-auto text-pretty text-gray-600">{data.description}</p>
             )}

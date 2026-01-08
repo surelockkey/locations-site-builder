@@ -22,7 +22,7 @@ export default function ContactUsPageVariant2({
       <section className="py-16 md:py-20 text-center">
         <div className="container mx-auto px-4">
           <h1
-            className="text-5xl md:text-6xl font-bold mb-6"
+            className="text-4xl md:text-5xl font-bold mb-6"
             style={{ color: "var(--color-text)" }}
           >
             {contactConfig.h1 || "Contact Us"}

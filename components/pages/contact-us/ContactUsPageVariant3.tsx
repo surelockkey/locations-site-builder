@@ -29,7 +29,7 @@ export default function ContactUsPageVariant3({
       >
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
               {contactConfig.h1 || "Contact Us"}
             </h1>
             <p className="text-xl md:text-2xl text-white/90">

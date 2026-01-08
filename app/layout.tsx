@@ -18,10 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
   try {
     const siteConfig = await getSiteConfig();
     return {
-      title: {
-        default: siteConfig.branding.companyName,
-        template: `%s | ${siteConfig.branding.shortName}`,
-      },
+      title: siteConfig.branding.companyName,
       description: siteConfig.branding.tagline,
       icons: {
         icon: siteConfig.branding.favicon || "/icon.svg",

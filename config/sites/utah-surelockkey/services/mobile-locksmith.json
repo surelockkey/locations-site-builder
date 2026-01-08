@@ -29,7 +29,7 @@
     },
     "ctaSecondary": {
       "text": "Get a Free Quote",
-      "link": "#quote"
+      "link": "/contact-us/"
     }
   },
   "sections": [

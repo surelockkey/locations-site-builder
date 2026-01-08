@@ -19,7 +19,7 @@ export default function WhyChooseVariant2({ data }: WhyChooseVariant2Props) {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 text-balance">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-balance">
               {data.title}
             </h2>
             {data.description && (

@@ -20,7 +20,7 @@
       },
       "ctaSecondary": {
         "text": "View Services",
-        "link": "/services"
+        "link": "/services/"
       },
       "image": "/hero-image.jpg"
     },

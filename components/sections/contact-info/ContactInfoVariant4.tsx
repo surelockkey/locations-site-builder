@@ -13,7 +13,7 @@ interface ContactInfoVariant4Props {
 export default function ContactInfoVariant4({ data }: ContactInfoVariant4Props) {
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-8" style={{ color: "var(--color-text)" }}>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8" style={{ color: "var(--color-text)" }}>
         Contact Information
       </h2>
 

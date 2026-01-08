@@ -29,7 +29,7 @@ export default function HeroVariant4({ data, siteConfig }: HeroVariant4Props) {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center space-y-8">
           <h1
-            className="text-6xl font-black leading-tight md:text-7xl lg:text-8xl text-balance"
+            className="text-4xl font-black leading-tight md:text-5xl lg:text-6xl text-balance"
             style={{ color: "var(--color-text)" }}
           >
             {data.title}

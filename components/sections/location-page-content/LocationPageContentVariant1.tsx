@@ -40,7 +40,7 @@ export default function LocationPageContentVariant1({
             >
               {/* Section Header */}
               <h2
-                className="text-3xl font-bold mb-6"
+                className="text-3xl md:text-4xl font-bold mb-6"
                 style={{ color: "var(--color-text, #1f2937)" }}
               >
                 {section.title}

@@ -21,7 +21,7 @@ export default function FAQVariant3({ data }: FAQVariant3Props) {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center text-balance">{data.title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center text-balance">{data.title}</h2>
 
           <Tabs defaultValue="general" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-8">

@@ -19,7 +19,7 @@ export default function PhotoGalleryVariant1({ data }: PhotoGalleryProps) {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         {title && (
-          <h2 className="text-3xl font-bold text-center mb-4" style={{ color: "var(--color-text)" }}>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4" style={{ color: "var(--color-text)" }}>
             {title}
           </h2>
         )}

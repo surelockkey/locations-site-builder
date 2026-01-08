@@ -29,7 +29,7 @@ export default function AreasAndHoursVariant1({
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-7xl">
           {title && (
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-balance text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-balance text-gray-900">
               {title}
             </h2>
           )}

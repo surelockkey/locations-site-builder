@@ -41,7 +41,7 @@ export default function ServiceListVariant2({
         <div className="mx-auto max-w-7xl">
           {data.title && (
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance text-gray-900">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-gray-900">
                 {data.title}
               </h2>
               {data.description && (

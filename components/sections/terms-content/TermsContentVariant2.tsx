@@ -22,7 +22,7 @@ export function TermsContentVariant2({ data }: TermsContentProps) {
           <div className="space-y-10">
             {data.sections.map((section, index) => (
               <div key={index} className="border-l-4 pl-6" style={{ borderColor: "var(--color-primary)" }}>
-                <h2 className="text-xl font-bold mb-3" style={{ color: "var(--color-text)" }}>
+                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: "var(--color-text)" }}>
                   {section.heading}
                 </h2>
                 <p className="text-muted-foreground leading-relaxed whitespace-pre-line">{section.content}</p>

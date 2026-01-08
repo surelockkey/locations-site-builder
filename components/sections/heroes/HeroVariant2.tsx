@@ -36,7 +36,7 @@ export default function HeroVariant2({ data, siteConfig }: HeroVariant2Props) {
       {/* Content */}
       <div className="container relative z-10 mx-auto flex h-full items-center px-4">
         <div className="max-w-3xl space-y-6 text-white">
-          <h1 className="text-5xl font-bold leading-tight md:text-6xl lg:text-7xl text-balance">
+          <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-6xl text-balance">
             {data.title}
           </h1>
           {data.subtitle && (

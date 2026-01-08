@@ -28,7 +28,7 @@ export default function CTAVariant3({ data }: CTAVariant3Props) {
           </div>
 
           <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-gray-900 text-balance">{data.title}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-balance">{data.title}</h2>
             {data.description && <p className="text-lg text-gray-600 text-pretty">{data.description}</p>}
             <Button asChild size="lg" className="text-lg">
               <Link href={data.ctaPrimary.link}>{data.ctaPrimary.text}</Link>

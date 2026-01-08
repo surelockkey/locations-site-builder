@@ -22,28 +22,28 @@
         "title": "Frequently Asked Questions",
         "questions": [
           {
-            "question": "How quickly can you respond to an emergency?",
-            "answer": "We typically arrive within 20-30 minutes for emergency calls in the Salt Lake area."
+            "question": "How quickly can a technician get to me in Utah?",
+            "answer": "Response times vary by location and time of day. Share your city and what's going on, and we'll give you the next available ETA."
           },
           {
-            "question": "Do you service all of Salt Lake County?",
-            "answer": "Yes, we provide locksmith services throughout Salt Lake County and surrounding areas."
+            "question": "Do you handle emergency lockouts 24/7?",
+            "answer": "Yes. We provide 24/7 emergency lockout service in Utah. Call or text for the fastest help."
           },
           {
-            "question": "What payment methods do you accept?",
-            "answer": "We accept cash, all major credit cards, and digital payments."
+            "question": "What info should I include when I contact you?",
+            "answer": "Your city, the type of service (home, business, or vehicle), and a short description of the issue. If it's a lock or hardware problem, a photo helps."
           },
           {
-            "question": "Are you licensed and insured?",
-            "answer": "Yes, we are fully licensed, bonded, and insured for your protection."
+            "question": "Can you make a car key if I lost the original?",
+            "answer": "In many cases, yes. Let us know the year, make, and model, and whether it's a standard key or a key fob, and we'll tell you the best next step."
           },
           {
-            "question": "Do you offer free estimates?",
-            "answer": "Yes, we provide free estimates for all non-emergency services."
+            "question": "What types of locksmith service do you cover?",
+            "answer": "We help with homes, businesses, and vehicles throughout Utah."
           },
           {
-            "question": "Can you make keys for all car makes and models?",
-            "answer": "Yes, we service all major car brands and can program transponder keys and key fobs."
+            "question": "When should I call instead of using the form?",
+            "answer": "Call or text for emergencies, lockouts, or anything time-sensitive. The form works best for non-urgent requests."
           }
         ]
       }

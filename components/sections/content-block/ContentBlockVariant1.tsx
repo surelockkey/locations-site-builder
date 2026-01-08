@@ -17,7 +17,7 @@ export default function ContentBlockVariant1({ data }: { data: any }) {
         <div className="container mx-auto px-4">
           {data.title && (
             <div className="mx-auto max-w-4xl text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-balance">{data.title}</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-balance">{data.title}</h2>
               {data.content && <p className="text-lg text-gray-600 text-pretty">{data.content}</p>}
             </div>
           )}
@@ -56,7 +56,7 @@ export default function ContentBlockVariant1({ data }: { data: any }) {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
-          {data.title && <h2 className="text-4xl font-bold text-gray-900 mb-6 text-balance">{data.title}</h2>}
+          {data.title && <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-balance">{data.title}</h2>}
           {data.content && <p className="text-lg text-gray-600 text-pretty">{data.content}</p>}
         </div>
       </div>

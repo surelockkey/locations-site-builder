@@ -20,7 +20,7 @@ export default function FAQVariant2({ data }: FAQVariant2Props) {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-7xl">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center text-balance">{data.title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center text-balance">{data.title}</h2>
 
           <div className="grid gap-8 lg:grid-cols-2">
             <Accordion type="single" collapsible className="w-full">

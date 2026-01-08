@@ -36,7 +36,7 @@ export default function ContactFormSectionVariant3({ data }: ContactFormSectionV
   return (
     <div className="space-y-6">
       <div className="text-center">
-        <h2 className="text-3xl font-bold mb-3" style={{ color: "var(--color-text)" }}>
+        <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: "var(--color-text)" }}>
           {data?.title || "Get A Quote"}
         </h2>
         {data?.description && <p style={{ color: "var(--color-text)" }}>{data.description}</p>}
