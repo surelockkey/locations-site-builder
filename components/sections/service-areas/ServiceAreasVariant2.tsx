@@ -9,6 +9,7 @@ interface ServiceAreasVariant2Props {
   mapImage?: string
   areas?: string[]
   centerLocation?: string
+  phone?: string
 }
 
 export default function ServiceAreasVariant2({
@@ -16,6 +17,7 @@ export default function ServiceAreasVariant2({
   description,
   areas = [],
   centerLocation,
+  phone,
 }: ServiceAreasVariant2Props) {
   return (
     <section className="py-16 bg-background">
@@ -43,14 +45,16 @@ export default function ServiceAreasVariant2({
             </div>
           )}
 
-          <div className="text-center">
-            <Button asChild size="lg">
-              <Link href="tel:3855334270">
-                <Phone className="w-5 h-5 mr-2" />
-                Call for Service in Your Area
-              </Link>
-            </Button>
-          </div>
+          {phone && (
+            <div className="text-center">
+              <Button asChild size="lg">
+                <Link href={`tel:${phone}`}>
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call for Service in Your Area
+                </Link>
+              </Button>
+            </div>
+          )}
         </div>
       </div>
     </section>
