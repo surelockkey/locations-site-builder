@@ -10,6 +10,7 @@ import ContactForm from "@/components/sections/contact-form";
 import FAQ from "@/components/sections/faq";
 import CTA from "@/components/sections/cta";
 import LocationPageContent from "@/components/sections/location-page-content";
+import { AreasAndHoursSection } from "../sections/areas-and-hours";
 
 interface DynamicLocationPageProps {
   siteConfig: SiteConfig;
@@ -30,10 +31,28 @@ export default function DynamicLocationPage({
     image: locationConfig.image,
   };
 
+  // Merge areasAndHours data from siteConfig
+  const sections = locationConfig.sections?.map((section: any) => {
+    if (section.component === "areasAndHours") {
+      return {
+        ...section,
+        data: {
+          ...section.data,
+          ...siteConfig.contact.areasAndHours,
+        },
+      };
+    }
+    return section;
+  });
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <Hero variant={siteConfig.variants.hero} data={heroData} siteConfig={siteConfig} />
+      <Hero
+        variant={siteConfig.variants.hero}
+        data={heroData}
+        siteConfig={siteConfig}
+      />
 
       {/* Location Page Content */}
       {locationConfig.page_data && (
@@ -44,7 +63,7 @@ export default function DynamicLocationPage({
       )}
 
       {/* Dynamic Sections */}
-      {locationConfig.sections?.map((section: any, index: number) => {
+      {sections?.map((section: any, index: number) => {
         switch (section.type) {
           case "serviceInfo":
             return (
@@ -83,31 +102,13 @@ export default function DynamicLocationPage({
             );
 
           case "map":
-            const mapData = section.data || section;
             return (
-              <section key={index} className="py-16 px-4 bg-gray-50">
-                <div className="container mx-auto max-w-6xl">
-                  {mapData.title && (
-                    <h2
-                      className="text-3xl md:text-4xl font-bold text-center mb-8"
-                      style={{ color: "var(--color-text)" }}
-                    >
-                      {mapData.title}
-                    </h2>
-                  )}
-                  <div className="rounded-lg overflow-hidden shadow-lg">
-                    <iframe
-                      src={mapData.embedUrl}
-                      width="100%"
-                      height="450"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    />
-                  </div>
-                </div>
-              </section>
+              <AreasAndHoursSection
+                key={index}
+                {...section.data}
+                siteConfig={siteConfig}
+                variant={siteConfig.variants.areasAndHours}
+              />
             );
 
           case "contactForm":

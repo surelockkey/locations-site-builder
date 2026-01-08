@@ -105,6 +105,7 @@ export function DynamicPage({ config, siteConfig }: DynamicPageProps) {
                 key={key}
                 {...section.data}
                 variant={siteConfig.variants.areasAndHours}
+                siteConfig={siteConfig}
               />
             );
 

@@ -77,11 +77,11 @@
     {
       "type": "map",
       "data": {
-        "title": "Our Draper Location & Contact",
-        "address": "277 West 13490 South Apt#A407 Draper, UT 84020",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.123!2d-111.888!3d40.524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDMxJzI2LjQiTiAxMTHCsDUzJzE2LjgiVw!5e0!3m2!1sen!2sus!4v1234567890"
-      }
+        "title": "Our Draper Location & Contact"
+      },
+      "enabled": true
     },
+
     {
       "type": "contactForm",
       "data": {
