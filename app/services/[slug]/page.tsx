@@ -41,14 +41,20 @@ export async function generateMetadata({
     const serviceConfig = await loadServiceConfig(siteId, slug);
     const siteConfig = await loadSiteConfig(siteId);
 
+    const canonicalUrl = `https://${siteConfig.domain}/services/${slug}`;
+
     return {
       title: serviceConfig.seo.title,
       description: serviceConfig.seo.description,
       keywords: serviceConfig.seo.keywords,
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
         title: serviceConfig.seo.title,
         description: serviceConfig.seo.description,
         siteName: siteConfig.branding.companyName,
+        url: canonicalUrl,
       },
     };
   } catch (error) {

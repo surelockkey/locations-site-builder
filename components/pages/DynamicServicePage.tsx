@@ -36,7 +36,7 @@ export default function DynamicServicePage({
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <Hero variant={siteConfig.variants.hero} data={heroData} />
+      <Hero variant={siteConfig.variants.hero} data={heroData} siteConfig={siteConfig} />
 
       {/* Dynamic Sections */}
       {serviceConfig.sections?.map((section: any, index: number) => {
@@ -170,6 +170,7 @@ export default function DynamicServicePage({
             return (
               <ContactForm
                 key={index}
+                siteConfig={siteConfig}
                 variant={siteConfig.variants.contactFormSection}
                 {...section.data}
               />

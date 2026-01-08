@@ -9,12 +9,25 @@ import LocationList from "@/components/sections/location-list";
 
 export async function generateMetadata(): Promise<Metadata> {
   try {
-    const pageConfig = await getPageConfig("locations");
+    const [pageConfig, siteConfig] = await Promise.all([
+      getPageConfig("locations"),
+      loadSiteConfig(),
+    ]);
+
+    const canonicalUrl = `https://${siteConfig.domain}/locations`;
 
     return {
       title: pageConfig.seo.title,
       description: pageConfig.seo.description,
       keywords: pageConfig.seo.keywords,
+      alternates: {
+        canonical: canonicalUrl,
+      },
+      openGraph: {
+        title: pageConfig.seo.title,
+        description: pageConfig.seo.description,
+        url: canonicalUrl,
+      },
     };
   } catch (error) {
     console.error("[v0] Locations metadata error:", error);

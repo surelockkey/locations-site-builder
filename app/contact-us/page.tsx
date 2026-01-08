@@ -2,11 +2,24 @@ import { getSiteConfig, getPageConfig } from "@/lib/config-loader";
 import ContactUsPage from "@/components/pages/contact-us";
 
 export async function generateMetadata() {
-  const contactConfig = await getPageConfig("contact-us");
+  const [contactConfig, siteConfig] = await Promise.all([
+    getPageConfig("contact-us"),
+    getSiteConfig(),
+  ]);
+
+  const canonicalUrl = `https://${siteConfig.domain}/contact-us`;
 
   return {
-    title: contactConfig.title || "Contact Us",
-    description: contactConfig.description || "Get in touch with us",
+    title: (contactConfig as any).title || "Contact Us",
+    description: (contactConfig as any).description || "Get in touch with us",
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: (contactConfig as any).title || "Contact Us",
+      description: (contactConfig as any).description || "Get in touch with us",
+      url: canonicalUrl,
+    },
   };
 }
 

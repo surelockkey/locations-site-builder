@@ -3,6 +3,7 @@ import HeroVariant1 from "./HeroVariant1";
 import HeroVariant2 from "./HeroVariant2";
 import HeroVariant3 from "./HeroVariant3";
 import HeroVariant4 from "./HeroVariant4";
+import { SiteConfig } from "@/types/config.types";
 
 export interface HeroVariantsProps {
   title: string;
@@ -16,21 +17,22 @@ export interface HeroVariantsProps {
 interface HeroProps {
   variant: string;
   data: HeroVariantsProps;
+  siteConfig?: SiteConfig;
 }
 
-export default function Hero({ variant, data }: HeroProps) {
+export default function Hero({ variant, data, siteConfig }: HeroProps) {
   console.log(data);
 
   switch (variant) {
     case "variant2":
-      return <HeroVariant2 data={data} />;
+      return <HeroVariant2 data={data} siteConfig={siteConfig} />;
     case "variant3":
-      return <HeroVariant3 data={data} />;
+      return <HeroVariant3 data={data} siteConfig={siteConfig} />;
     case "variant4":
-      return <HeroVariant4 data={data} />;
+      return <HeroVariant4 data={data} siteConfig={siteConfig} />;
     case "variant1":
     default:
-      return <HeroVariant1 data={data} />;
+      return <HeroVariant1 data={data} siteConfig={siteConfig} />;
   }
 }
 

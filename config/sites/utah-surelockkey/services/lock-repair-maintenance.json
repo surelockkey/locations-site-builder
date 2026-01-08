@@ -23,7 +23,7 @@
     "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Lock+Repair+%26+Maintenance/Lock+Repair+%26+Maintenance-2.webp",
     "ctaPrimary": {
       "text": "Call Us Now",
-      "link": "tel:3855334270"
+      "type": "phone"
     },
     "ctaSecondary": {
       "text": "Get a Free Quote",
@@ -100,10 +100,7 @@
       "type": "contactForm",
       "enabled": true,
       "data": {
-        "title": "Get Your Free Quote",
-        "phone": "(385) 533-4270",
-        "email": "info@surelockkey-utah.com",
-        "address": "Draper, UT"
+        "title": "Get Your Free Quote"
       }
     },
     {

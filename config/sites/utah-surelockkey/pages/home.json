@@ -20,15 +20,14 @@
       "data": {
         "title": "Professional Locksmith Services in Utah — Fast, Local, and Reliable",
         "subtitle": "Available for lockouts, lock repairs, car key replacements, and all your locksmith needs.",
-        "description": "Open 7 Days a Week | 7:00 AM – 7:00 PM",
+        "description": "Working hours: 7am - 7pm , 24/7 for emergency",
         "ctaPrimary": {
           "text": "(385) 533-4270 — Call Anytime",
-          "link": "tel:3855334270",
           "type": "phone"
         },
         "ctaSecondary": {
           "text": "Get a Free Quote",
-          "link": "#contact-form",
+          "link": "/contact-us",
           "type": "link"
         },
         "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
@@ -185,10 +184,7 @@
       "enabled": true,
       "data": {
         "title": "Schedule Trusted Locksmith Services in Utah",
-        "description": "Need a locksmith visit? Call (385) 533-4270 or fill out the form below. Our support team is available 24/7 to answer your questions, provide service details, and help you schedule an appointment at a time that works best for you.",
-        "phone": "(385) 533-4270",
-        "email": "info@surelockkey-utah.com",
-        "address": "Draper, UT"
+        "description": "Need a locksmith visit? Call (385) 533-4270 or fill out the form below. Our support team is available 24/7 to answer your questions, provide service details, and help you schedule an appointment at a time that works best for you."
       }
     },
     {

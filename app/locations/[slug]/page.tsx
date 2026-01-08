@@ -27,14 +27,20 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     const locationConfig = await loadLocationConfig(siteId, slug)
     const siteConfig = await loadSiteConfig()
 
+    const canonicalUrl = `https://${siteConfig.domain}/locations/${slug}`
+
     return {
       title: locationConfig.seo.title,
       description: locationConfig.seo.description,
       keywords: locationConfig.seo.keywords,
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
         title: locationConfig.seo.title,
         description: locationConfig.seo.description,
         siteName: siteConfig.branding.companyName,
+        url: canonicalUrl,
       },
     }
   } catch (error) {

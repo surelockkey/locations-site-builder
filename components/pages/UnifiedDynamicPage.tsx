@@ -90,6 +90,7 @@ export default function UnifiedDynamicPage({
                   key={key}
                   data={section.data}
                   variant={siteConfig.variants.hero}
+                  siteConfig={siteConfig}
                 />
               );
 
@@ -163,6 +164,7 @@ export default function UnifiedDynamicPage({
               return (
                 <ContactFormAlt
                   key={key}
+                  siteConfig={siteConfig}
                   {...section.data}
                   variant={siteConfig.variants.contactFormSection}
                 />
@@ -198,7 +200,7 @@ export default function UnifiedDynamicPage({
     return (
       <div className="min-h-screen bg-white">
         {/* Hero Section */}
-        <Hero variant={siteConfig.variants.hero} data={heroData} />
+        <Hero variant={siteConfig.variants.hero} data={heroData} siteConfig={siteConfig} />
 
         {/* Location Page Content (only for location pages) */}
         {pageType === "location" && locationConfig?.page_data && (
@@ -367,6 +369,7 @@ export default function UnifiedDynamicPage({
               return (
                 <ContactForm
                   key={index}
+                  siteConfig={siteConfig}
                   variant={siteConfig.variants.contactFormSection || 1}
                   {...section.data}
                   data={section.data || section}

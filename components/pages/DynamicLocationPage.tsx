@@ -33,7 +33,7 @@ export default function DynamicLocationPage({
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <Hero variant={siteConfig.variants.hero} data={heroData} />
+      <Hero variant={siteConfig.variants.hero} data={heroData} siteConfig={siteConfig} />
 
       {/* Location Page Content */}
       {locationConfig.page_data && (
@@ -114,6 +114,7 @@ export default function DynamicLocationPage({
             return (
               <ContactForm
                 key={index}
+                siteConfig={siteConfig}
                 variant={siteConfig.variants.contactForm || 1}
                 data={section.data || section}
               />

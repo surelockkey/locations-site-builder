@@ -56,16 +56,25 @@ export default async function HomePage() {
 
 export async function generateMetadata() {
   try {
-    const pageConfig = await getPageConfig("home");
+    const [pageConfig, siteConfig] = await Promise.all([
+      getPageConfig("home"),
+      getSiteConfig(),
+    ]);
+
+    const canonicalUrl = `https://${siteConfig.domain}/`;
 
     return {
       title: pageConfig.seo.title,
       description: pageConfig.seo.description,
       keywords: pageConfig.seo.keywords,
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
         title: pageConfig.seo.title,
         description: pageConfig.seo.description,
         type: "website",
+        url: canonicalUrl,
       },
     };
   } catch (error) {

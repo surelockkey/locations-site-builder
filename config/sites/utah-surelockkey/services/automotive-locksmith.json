@@ -2,7 +2,7 @@
   "slug": "automotive-locksmith",
   "title": "Automotive Locksmith Services",
   "subtitle": "Fast Car Lock Solutions",
-  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+  "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Automotive+Locksmith+Services/Automotive+Locksmith+Services.webp",
 
   "seo": {
     "title": "Automotive Locksmith Services | Fast Car Lock Solutions",
@@ -21,10 +21,10 @@
     "title": "Reliable Automotive Locksmith Services in Utah",
     "subtitle": "Mobile Service Across Utah",
     "description": "Car problems have a way of happening at the worst time. Sure Lock & Key Utah LLC provides mobile automotive locksmith service across Utah, so you can get help at home, at work, or anywhere you're parked. Tell us what you're driving, and we'll take it from there.",
-    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+    "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Automotive+Locksmith+Services/Automotive+Locksmith+Services.webp",
     "ctaPrimary": {
       "text": "Call Us Now",
-      "link": "tel:3855334270"
+      "type": "phone"
     },
     "ctaSecondary": {
       "text": "Get a Free Quote",
@@ -52,8 +52,7 @@
         "cta": {
           "question": "Can't find the service you're looking for?",
           "subtitle": "Call us now — we're ready to answer 24/7.",
-          "buttonText": "Call us now",
-          "phoneNumber": "3855334270"
+          "buttonText": "Call us now"
         }
       }
     },
@@ -62,15 +61,15 @@
       "title": "See Our Recent Locksmith Work",
       "images": [
         {
-          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Automotive+Locksmith+Services/Automotive+Locksmith+Services-3.webp",
           "alt": "Automotive locksmith service"
         },
         {
-          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Automotive+Locksmith+Services/Automotive+Locksmith+Services-2.webp",
           "alt": "Car key replacement"
         },
         {
-          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Home+Page/Home+Page-1.webp",
+          "url": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Automotive+Locksmith+Services/Automotive+Locksmith+Services-1.webp",
           "alt": "Mobile locksmith service"
         }
       ]
@@ -321,10 +320,7 @@
 
       "data": {
         "title": "Schedule Trusted Locksmith Services in Utah",
-        "description": "Need a locksmith visit? Call (385) 533-4270 or fill out the form below. Our support team is available 24/7 to answer your questions, provide service details, and help you schedule an appointment at a time that works best for you.",
-        "phone": "(385) 533-4270",
-        "email": "info@surelockkey-utah.com",
-        "address": "Draper, UT"
+        "description": "Need a locksmith visit? Call (385) 533-4270 or fill out the form below. Our support team is available 24/7 to answer your questions, provide service details, and help you schedule an appointment at a time that works best for you."
       }
     },
     {

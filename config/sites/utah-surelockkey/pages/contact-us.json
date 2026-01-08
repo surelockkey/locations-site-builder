@@ -12,30 +12,7 @@
       "variant": "1",
       "data": {
         "title": "Tell Us What's Going On",
-        "description": "Fill out the form and we'll get back to you as soon as possible.",
-        "cities": [
-          "Salt Lake City",
-          "Draper",
-          "Sandy",
-          "West Jordan",
-          "South Jordan",
-          "Murray",
-          "Midvale",
-          "Riverton",
-          "Herriman",
-          "Bluffdale",
-          "Lehi",
-          "American Fork"
-        ],
-        "serviceTypes": [
-          "Automotive Locksmith",
-          "Car Key Programming",
-          "Car Key Replacement",
-          "Emergency Locksmith",
-          "Lock Installation",
-          "Lock Repair",
-          "Mobile Locksmith"
-        ]
+        "description": "Fill out the form and we'll get back to you as soon as possible."
       }
     },
     {

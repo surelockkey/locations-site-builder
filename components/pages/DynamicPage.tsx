@@ -38,6 +38,7 @@ export function DynamicPage({ config, siteConfig }: DynamicPageProps) {
                 key={key}
                 data={section.data}
                 variant={siteConfig.variants.hero}
+                siteConfig={siteConfig}
               />
             );
 
@@ -111,6 +112,7 @@ export function DynamicPage({ config, siteConfig }: DynamicPageProps) {
             return (
               <ContactForm
                 key={key}
+                siteConfig={siteConfig}
                 {...section.data}
                 variant={siteConfig.variants.contactFormSection}
               />

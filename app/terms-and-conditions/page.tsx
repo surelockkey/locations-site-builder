@@ -4,10 +4,24 @@ import { getSiteConfig, getPageConfig } from "@/lib/config-loader"
 
 export async function generateMetadata(): Promise<Metadata> {
   try {
-    const termsConfig = await getPageConfig("terms")
+    const [termsConfig, siteConfig] = await Promise.all([
+      getPageConfig("terms"),
+      getSiteConfig(),
+    ])
+
+    const canonicalUrl = `https://${siteConfig.domain}/terms-and-conditions`
+
     return {
       title: termsConfig?.seo?.title || "Terms and Conditions",
       description: termsConfig?.seo?.description || "Terms and Conditions",
+      alternates: {
+        canonical: canonicalUrl,
+      },
+      openGraph: {
+        title: termsConfig?.seo?.title || "Terms and Conditions",
+        description: termsConfig?.seo?.description || "Terms and Conditions",
+        url: canonicalUrl,
+      },
     }
   } catch (error) {
     console.error("[v0] Error loading terms metadata:", error)

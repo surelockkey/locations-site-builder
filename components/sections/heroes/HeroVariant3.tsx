@@ -3,12 +3,22 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { HeroVariantsProps } from ".";
+import { SiteConfig } from "@/types/config.types";
 
 interface HeroVariant3Props {
   data: HeroVariantsProps;
+  siteConfig?: SiteConfig;
 }
 
-export default function HeroVariant3({ data }: HeroVariant3Props) {
+export default function HeroVariant3({ data, siteConfig }: HeroVariant3Props) {
+  // Use global phone number for phone CTAs
+  const primaryLink = data.ctaPrimary?.type === "phone" && siteConfig?.contact.phone
+    ? `tel:${siteConfig.contact.phone}`
+    : data.ctaPrimary?.link;
+
+  const secondaryLink = data.ctaSecondary?.type === "phone" && siteConfig?.contact.phone
+    ? `tel:${siteConfig.contact.phone}`
+    : data.ctaSecondary?.link;
   return (
     <section
       className="relative overflow-hidden"
@@ -46,7 +56,7 @@ export default function HeroVariant3({ data }: HeroVariant3Props) {
             <div className="flex flex-col gap-4 sm:flex-row">
               {data.ctaPrimary && (
                 <Button asChild size="lg" className="text-lg rounded-full">
-                  <Link href={data.ctaPrimary.link}>
+                  <Link href={primaryLink as string}>
                     {data.ctaPrimary.text}
                   </Link>
                 </Button>
@@ -58,7 +68,7 @@ export default function HeroVariant3({ data }: HeroVariant3Props) {
                   variant="ghost"
                   className="text-lg rounded-full"
                 >
-                  <Link href={data.ctaSecondary.link}>
+                  <Link href={secondaryLink as string}>
                     {data.ctaSecondary.text}
                   </Link>
                 </Button>

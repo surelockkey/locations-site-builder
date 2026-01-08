@@ -14,7 +14,7 @@
     "image": "https://utah-photos.s3.us-east-2.amazonaws.com/photos/Locations/Locations-1.webp",
     "cta": {
       "text": "Call (385) 533-4270",
-      "link": "tel:3855334270"
+      "type": "phone"
     },
     "address": "277 West 13490 South Apt#A407 Draper, UT 84020"
   },

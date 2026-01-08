@@ -5,11 +5,24 @@ import { getPageConfig, getSiteConfig } from "@/lib/config-loader"
 const siteId = process.env.NEXT_PUBLIC_SITE_ID || "utah-surelockkey"
 
 export async function generateMetadata(): Promise<Metadata> {
-  const pageConfig = await getPageConfig("gallery")
+  const [pageConfig, siteConfig] = await Promise.all([
+    getPageConfig("gallery"),
+    getSiteConfig(),
+  ])
+
+  const canonicalUrl = `https://${siteConfig.domain}/gallery`
 
   return {
     title: pageConfig.seo.title,
     description: pageConfig.seo.description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: pageConfig.seo.title,
+      description: pageConfig.seo.description,
+      url: canonicalUrl,
+    },
   }
 }
 
