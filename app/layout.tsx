@@ -23,11 +23,25 @@ export async function generateMetadata(): Promise<Metadata> {
       icons: {
         icon: siteConfig.branding.favicon || "/icon.svg",
       },
+      robots: {
+        follow: true,
+        index: true,
+        "max-snippet": -1,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+      },
     };
   } catch (error) {
     return {
       title: "Locksmith Services",
       description: "Professional locksmith services",
+      robots: {
+        follow: true,
+        index: true,
+        "max-snippet": -1,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+      },
     };
   }
 }
