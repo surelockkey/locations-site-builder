@@ -13,6 +13,8 @@ export default function ContactUsPageVariant1({
   siteConfig,
   contactConfig,
 }: ContactUsPageVariant1Props) {
+  console.log(contactConfig);
+
   return (
     <div
       className="min-h-screen"
