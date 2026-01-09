@@ -14,6 +14,10 @@ export async function generateMetadata(): Promise<Metadata> {
     return {
       title: termsConfig?.seo?.title || "Terms and Conditions",
       description: termsConfig?.seo?.description || "Terms and Conditions",
+      robots: {
+        index: false,
+        follow: true,
+      },
       alternates: {
         canonical: canonicalUrl,
       },

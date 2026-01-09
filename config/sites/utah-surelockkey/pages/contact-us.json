@@ -1,7 +1,10 @@
 {
-  "title": "Contact Us - Sure Lock & Key Utah",
-  "description": "Get in touch with Sure Lock & Key Utah. Available 7 days a week for all your locksmith needs.",
-  "h1": "Contact Sure Lock & Key Utah",
+  "seo": {
+    "title": "Contact Us - Sure Lock & Key Utah",
+    "description": "Get in touch with Sure Lock & Key Utah. Available 7 days a week for all your locksmith needs.",
+    "h1": "Contact Sure Lock & Key Utah",
+    "keywords": "contact locksmith utah, locksmith phone number, locksmith near me contact, utah locksmith contact, locksmith service request"
+  },
   "sections": [
     {
       "type": "contactInfo",

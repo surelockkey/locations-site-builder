@@ -42,10 +42,6 @@
         {
           "label": "Contact",
           "href": "/contact-us"
-        },
-        {
-          "label": "Terms & Conditions",
-          "href": "/terms-and-conditions"
         }
       ]
     },
@@ -74,15 +70,11 @@
       "links": [
         {
           "label": "Privacy Policy",
-          "href": "/privacy"
+          "href": "/privacy-policy"
         },
         {
-          "label": "Terms of Service",
-          "href": "/terms"
-        },
-        {
-          "label": "Sitemap",
-          "href": "/sitemap"
+          "label": "Terms & Conditions",
+          "href": "/terms-and-conditions"
         }
       ]
     }

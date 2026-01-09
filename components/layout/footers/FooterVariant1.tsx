@@ -93,8 +93,21 @@ export function FooterVariant1({ branding, contact, services, footerConfig }: Fo
           </div>
         </div>
 
-        <div className="border-t border-white/20 mt-8 pt-8 text-center">
-          <p className="text-sm text-white/70">
+        <div className="border-t border-white/20 mt-8 pt-8">
+          {footerConfig.navigation.legal && (
+            <div className="flex flex-wrap justify-center gap-4 mb-4">
+              {footerConfig.navigation.legal.links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm hover:opacity-70 text-white/70 hover:text-white"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          )}
+          <p className="text-sm text-white/70 text-center">
             © {new Date().getFullYear()} {branding.companyName}. {footerConfig.copyright}
           </p>
         </div>

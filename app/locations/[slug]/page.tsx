@@ -39,6 +39,13 @@ export async function generateMetadata({
       title: locationConfig.seo.title,
       description: locationConfig.seo.description,
       keywords: locationConfig.seo.keywords,
+      robots: {
+        index: true,
+        follow: true,
+        'max-snippet': -1,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+      },
       alternates: {
         canonical: canonicalUrl,
       },

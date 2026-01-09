@@ -20,6 +20,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title: pageConfig.seo.title,
       description: pageConfig.seo.description,
       keywords: pageConfig.seo.keywords,
+      robots: {
+        index: true,
+        follow: true,
+        'max-snippet': -1,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+      },
       alternates: {
         canonical: canonicalUrl,
       },

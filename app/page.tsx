@@ -8,6 +8,14 @@ import { notFound } from "next/navigation";
 
 export default async function HomePage() {
   try {
+    // API test - JSONPlaceholder API для тестування швидкості
+    const apiTestStart = Date.now();
+    const apiResponse = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    const apiData = await apiResponse.json();
+    const apiTestEnd = Date.now();
+    console.log('API Test Speed:', apiTestEnd - apiTestStart, 'ms');
+    console.log('API Response:', apiData);
+
     const [siteConfig, pageConfig, services] = await Promise.all([
       getSiteConfig(),
       getPageConfig("home"),
@@ -67,6 +75,13 @@ export async function generateMetadata() {
       title: pageConfig.seo.title,
       description: pageConfig.seo.description,
       keywords: pageConfig.seo.keywords,
+      robots: {
+        index: true,
+        follow: true,
+        'max-snippet': -1,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+      },
       alternates: {
         canonical: canonicalUrl,
       },
