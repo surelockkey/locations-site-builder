@@ -7,6 +7,8 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card } from "@/components/ui/card"
 import { Phone, Mail, MapPin, Send } from "lucide-react"
+import { useContactForm } from "@/hooks/useContactForm"
+import { SiteConfig } from "@/types/config.types"
 
 interface ContactFormVariant3Props {
   title?: string
@@ -14,6 +16,7 @@ interface ContactFormVariant3Props {
   phone?: string
   email?: string
   address?: string
+  siteConfig?: SiteConfig
 }
 
 export default function ContactFormVariant3({
@@ -22,6 +25,7 @@ export default function ContactFormVariant3({
   phone,
   email,
   address,
+  siteConfig,
 }: ContactFormVariant3Props) {
   const [formData, setFormData] = useState({
     name: "",
@@ -31,9 +35,35 @@ export default function ContactFormVariant3({
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [successMessage, setSuccessMessage] = useState<string | null>(null)
+  const [errorMessage, setErrorMessage] = useState<string | null>(null)
+
+  const { submitForm, isSubmitting } = useContactForm({
+    siteUrl: siteConfig?.domain ? `https://${siteConfig.domain}` : "",
+    siteEmail: siteConfig?.contact?.email || email || "",
+    onSuccess: () => {
+      setSuccessMessage("Thank you! Your message has been sent successfully.")
+      setErrorMessage(null)
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: "",
+      })
+    },
+    onError: (error) => {
+      setErrorMessage("Sorry, something went wrong. Please try again or call us directly.")
+      setSuccessMessage(null)
+      console.error("Form submission error:", error)
+    },
+  })
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("[v0] Form submitted:", formData)
+    setSuccessMessage(null)
+    setErrorMessage(null)
+    await submitForm(formData)
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -153,9 +183,22 @@ export default function ContactFormVariant3({
                   rows={5}
                   required
                 />
-                <Button type="submit" className="w-full" size="lg">
+
+                {successMessage && (
+                  <div className="p-4 bg-green-100 border border-green-400 text-green-700 rounded">
+                    {successMessage}
+                  </div>
+                )}
+
+                {errorMessage && (
+                  <div className="p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+                    {errorMessage}
+                  </div>
+                )}
+
+                <Button type="submit" className="w-full" size="lg" disabled={isSubmitting}>
                   <Send className="w-5 h-5 mr-2" />
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </Card>

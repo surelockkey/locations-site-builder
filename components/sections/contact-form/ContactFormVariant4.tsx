@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Phone } from "lucide-react"
+import { useContactForm } from "@/hooks/useContactForm"
+import { SiteConfig } from "@/types/config.types"
 
 interface ContactFormVariant4Props {
   title?: string
@@ -13,18 +15,49 @@ interface ContactFormVariant4Props {
   phone?: string
   email?: string
   address?: string
+  siteConfig?: SiteConfig
 }
 
-export default function ContactFormVariant4({ title = "Quick Contact", description, phone }: ContactFormVariant4Props) {
+export default function ContactFormVariant4({
+  title = "Quick Contact",
+  description,
+  phone,
+  email,
+  siteConfig
+}: ContactFormVariant4Props) {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [successMessage, setSuccessMessage] = useState<string | null>(null)
+  const [errorMessage, setErrorMessage] = useState<string | null>(null)
+
+  const { submitForm, isSubmitting } = useContactForm({
+    siteUrl: siteConfig?.domain ? `https://${siteConfig.domain}` : "",
+    siteEmail: siteConfig?.contact?.email || email || "",
+    onSuccess: () => {
+      setSuccessMessage("Thank you! Your message has been sent successfully.")
+      setErrorMessage(null)
+      setFormData({
+        name: "",
+        phone: "",
+        message: "",
+      })
+    },
+    onError: (error) => {
+      setErrorMessage("Sorry, something went wrong. Please try again or call us directly.")
+      setSuccessMessage(null)
+      console.error("Form submission error:", error)
+    },
+  })
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("[v0] Form submitted:", formData)
+    setSuccessMessage(null)
+    setErrorMessage(null)
+    await submitForm(formData)
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -61,8 +94,21 @@ export default function ContactFormVariant4({ title = "Quick Contact", descripti
                 placeholder="Brief description of your needs..."
                 rows={3}
               />
-              <Button type="submit" className="w-full" size="lg">
-                Request Callback
+
+              {successMessage && (
+                <div className="p-4 bg-green-100 border border-green-400 text-green-700 rounded">
+                  {successMessage}
+                </div>
+              )}
+
+              {errorMessage && (
+                <div className="p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+                  {errorMessage}
+                </div>
+              )}
+
+              <Button type="submit" className="w-full" size="lg" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Request Callback"}
               </Button>
             </form>
           </div>

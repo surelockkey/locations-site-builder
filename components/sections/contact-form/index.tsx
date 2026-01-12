@@ -29,6 +29,7 @@ export default function ContactForm({
   const mergedProps = {
     ...contactProps,
     ...props,
+    siteConfig,
   };
 
   switch (variant) {
