@@ -551,14 +551,14 @@ export const LandingBuilder = ({
               />
             );
 
-          //   case BLOCK_TYPES.ABOUT_US:
-          //     return <AboutUs key={key} data={block} />;
+          case BLOCK_TYPES.ABOUT_US:
+            return <AboutUs key={key} data={block} />;
 
-          //   case BLOCK_TYPES.ABOUT_CITY:
-          //     return <AboutCity key={key} data={block} />;
+          case BLOCK_TYPES.ABOUT_CITY:
+            return <AboutCity key={key} data={block} />;
 
-          //   case BLOCK_TYPES.TWENTY_FOUR_HOUR:
-          //     return <HourService key={key} data={block} phone={phone} />;
+          case BLOCK_TYPES.TWENTY_FOUR_HOUR:
+            return <HourService key={key} data={block} phone={phone} />;
 
           case BLOCK_TYPES.TESTIMONIALS:
             // Placeholder if logic needs children pass-through
