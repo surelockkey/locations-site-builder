@@ -24,19 +24,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: baseUrl,
     },
     {
-      url: `${baseUrl}/locations`,
+      url: `${baseUrl}/locations/`,
     },
     {
-      url: `${baseUrl}/gallery`,
+      url: `${baseUrl}/gallery/`,
     },
     {
-      url: `${baseUrl}/contact-us`,
+      url: `${baseUrl}/contact-us/`,
     },
     {
-      url: `${baseUrl}/terms-and-conditions`,
+      url: `${baseUrl}/terms-and-conditions/`,
     },
     {
-      url: `${baseUrl}/privacy-policy`,
+      url: `${baseUrl}/privacy-policy/`,
     },
   ];
 
@@ -49,12 +49,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Service pages
   const servicePages = services.map((service) => ({
-    url: `${baseUrl}/services/${service.slug}`,
+    url: `${baseUrl}/services/${service.slug}/`,
   }));
 
   // Location pages
   const locationPages = locations.map((location) => ({
-    url: `${baseUrl}/locations/${location.slug}`,
+    url: `${baseUrl}/locations/${location.slug}/`,
   }));
 
   // Blog posts pages (only for utah-surelockkey)
